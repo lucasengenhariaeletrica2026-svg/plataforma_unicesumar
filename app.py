@@ -272,7 +272,7 @@ elif materia == "Cálculo Diferencial e Integral I":
             st.info("Aguardando o upload dos materiais oficiais pelo administrador do sistema.")
             
     with aba_tutor:
-        st.subheader("👨‍🏫 Tutor Inteligente di Cálculo I")
+        st.subheader("👨‍🏫 Tutor Inteligente de Cálculo I")
         salvos = os.listdir(pasta_da_materia)
         if salvos:
             dbase = st.selectbox("Documento base de Cálculo:", salvos, key="db_calculo")
