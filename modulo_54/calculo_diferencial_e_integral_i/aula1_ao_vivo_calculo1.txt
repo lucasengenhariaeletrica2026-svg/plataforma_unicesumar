@@ -1,0 +1,694 @@
+Transcrição
+
+Pesquisar transcrição
+Pesquisar transcrição
+
+0:011 segundoHe. [música]
+0:099 segundos[música]
+0:2121 segundosVocê sabia que temos uma biblioteca inteira [música] à nossa disposição?
+0:2525 segundosAtravés do Studio, você encontra dois ambientes que são fundamentais para a sua experiência. O sistema Minha Biblioteca, com diversos livros
+0:3333 segundosresponsivos [música] e até mesmo leitura em voz alta para você conseguir adquirir conhecimento de qualquer lugar. Além disso, também temos a biblioteca
+0:4141 segundosUnicesumar, com diversos periódicos e artigos [música] científicos. Nestes dois ambientes, você encontra as bibliografias básicas e complementares
+0:5050 segundosde [música] todas as matérias do seu curso. Tá esperando o quê? Acesse unicesumar.edu.br/biblioteca e expanda agora os seus conhecimentos.
+0:5959 segundos[música]
+1:011 minuto e 1 segundoUnicesumar EAD. O futuro começa agora.
+1:061 minuto e 6 segundosQueremos conversar com você sobre um valor que sustenta a nossa comunidade acadêmica, a integridade. Cada
+1:131 minuto e 13 segundosatividade, trabalho ou avaliação é uma chance de desenvolver conhecimentos e [música] competências que farão parte da
+1:201 minuto e 20 segundossua carreira. Mais do que uma nota, o objetivo é construir uma formação sólida com verdade, ética [música] e
+1:281 minuto e 28 segundoshonestidade. Você é parte essencial da credibilidade dos nossos processos.
+1:331 minuto e 33 segundosQuando realiza suas tarefas com responsabilidade, fortalece o valor do seu diploma, respeita o esforço dos
+1:401 minuto e 40 segundoscolegas e contribui para um ambiente acadêmico mais ético e comprometido com a qualidade. Por isso, práticas como
+1:481 minuto e 48 segundoscolar, usar respostas indevidamente, compartilhar ou comercializar questões, provas e outros materiais institucionais
+1:571 minuto e 57 segundossão [música] incompatíveis com esses valores. Elas ferem a integridade acadêmica. Essas condutas podem gerar sanções acadêmicas
+2:062 minutos e 6 segundose administrativas, conforme as normas da universidade. No caso de divulgação, comercialização ou uso indevido de
+2:152 minutos e 15 segundosmaterial, os responsáveis também podem responder civil e criminalmente, dependendo das circunstâncias e da lei.
+2:232 minutos e 23 segundosConte conosco na sua jornada de aprendizagem e conte com você para trilhar uma formação ética autêntica e
+2:312 minutos e 31 segundosde excelência. Sua integridade começa nas escolhas de hoje e acompanha o profissional que você será amanhã.
+2:392 minutos e 39 segundos[música]
+2:502 minutos e 50 segundosOpa, desculpa, pessoal, microfone multado. Eh, uma boa noite a todos.
+2:542 minutos e 54 segundosSejam todos muito bem-vindos ao nosso módulo 54 de 2026. Então, o nosso último módulo, né, do ano. Então, vamos lá para
+3:043 minutos e 4 segundosa disciplina de cálculo diferencial integral um. Então, pessoal, hoje, né, temos aí já liberado para vocês duas
+3:113 minutos e 11 segundosatividades muito importantes que fazem parte da composição da nota final de vocês, então que são as atividades mapa
+3:183 minutos e 18 segundose a atividade de estudo um. É muito importante que vocês já vão dando uma olhada na atividade, não deixem para a
+3:253 minutos e 25 segundosúltima hora. Então já vão verificando o que que a atividade pede, o que que vocês já conseguem realizar ao decorrer das aulas. Lembrando que é muito
+3:343 minutos e 34 segundosimportante, né, o uso do template, né, para vocês entregarem a atividade no template. Então o template tá disponível na pasta material da disciplina.
+3:433 minutos e 43 segundosBaixem os templates e utilizem para enviar as atividades. Não se esqueçam desse ponto. Além disso, pessoal, temos então junto com a liberação dessas
+3:523 minutos e 52 segundosatividades, os vídeos explicativos, tanto da atividade mapa quanto da atividade de estudo um, que são duas atividades, como eu comentei, que vocês
+3:593 minutos e 59 segundosvão utilizar o template, então são atividades de envio de anexo. Então, assistam ao vídeo, aos vídeos, né, a professora Paula gravou para vocês. E se
+4:084 minutos e 8 segundosainda permanecerem dúvidas, podem encaminhar mensagem pelo Fale com mediador, tá? OK. E aí, pessoal, quero
+4:164 minutos e 16 segundospedir para vocês aqui na nossa aula, né, que vocês utilizem bastante o chat, mas para dúvidas relacionadas ao conteúdo da disciplina, né, para que a gente consiga
+4:254 minutos e 25 segundosvisualizar a dúvida de vocês e outras dúvidas encaminhem mensagem pelo falecomediador que iremos solucionar para vocês.
+4:344 minutos e 34 segundosEh, eu sou o professor mediador Víor. Eu vou estar com vocês aqui ao longo da disciplina de cálculo um. Então, vou auxiliar a professora no chat com as
+4:434 minutos e 43 segundosdúvidas no chat. Tá? OK. Quero passar um outro recadinho importante para vocês também, pessoal, a respeito do da nossa
+4:504 minutos e 50 segundosCPA que está liberada no ambiente estúdio de vocês, tá? Então é muito importante que vocês respondam essa CPA,
+4:574 minutos e 57 segundosporque é ela que vai contribuir para que a gente tenha uma melhoria, né, na qualidade da nossa instituição, na melhoria do ensino, né? Então a opinião
+5:065 minutos e 6 segundosde vocês faz a diferença, que é o que tá escrito ali no cartaz, né? Então não deixem de participar e contribuir, tá?
+5:125 minutos e 12 segundosOK. Então agora eu vou chamar a professora paraa aula. Boa noite, professora.
+5:195 minutos e 19 segundosMuito boa noite, professor Vittor. Tudo certo por aí? Tudo certo, professor. E com você? Tudo bem também por aqui? Tudo certo.
+5:295 minutos e 29 segundosEntão, professora, desejo uma boa aula. Qualquer dúvida vou estar aqui no chat.
+5:335 minutos e 33 segundosAh, com certeza. Muito obrigada. Boa noite, pessoal. Tudo bem com vocês? Sejam muito bem-vindos a esse módulo 54.
+5:425 minutos e 42 segundosSejam bem-vindos a essa disciplina cálculo diferencial integral um. Então,
+5:495 minutos e 49 segundospode ser uma uma disciplina aí muito temida por todo mundo, né? Mas primeira
+5:565 minutos e 56 segundoscoisa que eu queria dizer aqui é para vocês ficarem tranquilos, fiquem calmos que eu tenho certeza que tudo vai dar
+6:036 minutos e 3 segundoscerto. A gente vai eh procurar passar aqui da melhor maneira possível todo o
+6:126 minutos e 12 segundosconteúdo, né, dessa desse livro inteiro que tem aí nove unidades. Então, a gente vai
+6:196 minutos e 19 segundosprocurar dar essas aulas com calma, procurar tirar as dúvidas de vocês.
+6:266 minutos e 26 segundosEntão, igual o professor Víor falou, utilizem bastante o chat para que a gente possa trocar experiências, para
+6:336 minutos e 33 segundosque eu possa entender um pouquinho mais das dúvidas que vocês estão tendo no decorrer da aula, tá? e deixem as
+6:416 minutos e 41 segundosdúvidas eh que não são relacionadas ao conteúdo da aula ao vivo lá pro Fale com Mediador que os professores mediadores
+6:506 minutos e 50 segundosvão auxiliar vocês, tá? Então mandem via chat agora o, né, dúvidas em relação ao
+6:576 minutos e 57 segundosconteúdo da aula que o professor Víor também vai est atento ao chat para ir tirando as dúvidas eh conforme, né, a
+7:067 minutos e 6 segundosaula vai passando, tá bem? algumas dúvidas eu tiro aqui na aula ao vivo. Tudo bem? Podemos começar?
+7:167 minutos e 16 segundosVamos começar que a gente tem bastante conteúdo para falar, bastante coisa para passar para vocês e o tempo aí de 1 hora
+7:237 minutos e 23 segundose meia é pouco, né? Então, antes da gente começar, gostaria de me apresentar. Me chamo Paula. Eu que vou
+7:337 minutos e 33 segundosministrar essa disciplina eh ao longo dessas nove aulas.
+7:377 minutos e 37 segundosSou formada em engenharia química pela Universidade Estadual de Maringá.
+7:437 minutos e 43 segundosEh, tenho mestrado, tenho doutorado na engenharia química também pela Universidade Estadual de Maringá.
+7:517 minutos e 51 segundosFinalizei um pós-doutorado eh pela Unieste, aqui uma Universidade aqui do Paraná, também na engenharia química. [roncando]
+8:008 minutosEntão, toda a minha trajetória profissional praticamente tá voltada paraa academia, né, para essa área
+8:078 minutos e 7 segundosacadêmica. Então, eu atuo como professora há algum tempo, inclusive aqui na Unicesumar há algum tempo. Eh, e
+8:168 minutos e 16 segundostô aqui à disposição de vocês para passar todo esse conhecimento que eu tive ao longo desses anos.
+8:248 minutos e 24 segundosComo a minha formação toda é em engenharia, engenharia química, eh essa
+8:318 minutos e 31 segundosdisciplina de cálculo, posso dizer com propriedade que é super importante, tanto paraa formação acadêmica, né?
+8:408 minutos e 40 segundosEstudei muito cálculo na minha graduação, mas também utilizei muito do cálculo um no mestrado, no doutorado,
+8:498 minutos e 49 segundosporque a base do que a gente vai ver aqui, né, os conceitos que a gente vai estudar aqui, servem para toda a
+8:588 minutos e 58 segundosformação acadêmica. Então, a primeira coisa que eu digo é: não subestimem essa disciplina, tá? Essa disciplina não é só
+9:079 minutos e 7 segundosficar [roncando] resolvendo derivadas integrais, ficar utilizando muita calculadora. Não
+9:149 minutos e 14 segundosé só isso. É claro que a gente vai aprender a resolver tudo isso, mas o principal é são os conceitos, tá? Os
+9:239 minutos e 23 segundosconceitos aprendidos nessa disciplina de cálculo um vai fazer toda a diferença e vai ser essencial para pro resto da formação de vocês, tá?
+9:349 minutos e 34 segundosprincipalmente paraa graduação. Tem muitas disciplinas que necessitam dessa base, desse conceito aprendido em
+9:439 minutos e 43 segundoscálculo um, né, para que para que seja aplicado, tá certo? Então, deixei aqui o
+9:519 minutos e 51 segundosmeu currículo LX, o meu LinkedIn, se alguém tiver interesse, né, a gente tá sempre disponível por lá. Lá no meu
+10:0010 minutoslápis também tem as pesquisas que a gente sempre tá fazendo e assim por diante, toda a área acadêmica, tá?
+10:0810 minutos e 8 segundosÃ, acho que perguntaram aqui se a gente vai utilizar bastante calculadora.
+10:1510 minutos e 15 segundosSim, a gente vai utilizar bastante calculadora, não muito nessa aula, porque essa aula é uma aula introdutória, né? A nossa primeira aula.
+10:2310 minutos e 23 segundosMas ter uma calculadora à mão, sim, é super importante, tá? Calculadora científica.
+10:3310 minutos e 33 segundosClaro que muitas das coisas a gente consegue fazer com uma calculadora básica, né? Mas aconselho vocês a ter uma calculadora científica sempre à mão
+10:4310 minutos e 43 segundosnas nossas aulas, tá? Então, pra gente começar, eu gostaria de de falar aqui algumas dicas, dar algumas dicas para
+10:5210 minutos e 52 segundosvocês, tá bem? Como essa é uma disciplina muito temida no curso, né, e eu já falei que é para vocês ficarem
+11:0011 minutoscalmos, tranquilos, que vai dar tudo certo, eh, para que deu tudo certo no final, eh, vou deixar aqui algumas dicas
+11:0911 minutos e 9 segundosque eu acho válido, tá bem? vai dar tudo certo, mas eu preciso muito do apoio de
+11:1611 minutos e 16 segundosvocês, preciso muito da dedicação de vocês para com as nossas aulas aqui, OK?
+11:2411 minutos e 24 segundosÃ, então, primeira coisa, gente, revise as aulas.
+11:2911 minutos e 29 segundosRevise as aulas, tanto as aulas conceituais quanto as aulas ao vivo. As aulas
+11:3611 minutos e 36 segundosconceituais, como o próprio nome já diz, traz todo o conceito que vocês precisam,
+11:4511 minutos e 45 segundosã, né, ter na cabeça antes de vir paraa aula. Então, essa é uma dica. Assistam
+11:5111 minutos e 51 segundosas aulas conceituais antes de vir aqui e assistir as aulas ao vivo, tá? porque
+11:5711 minutos e 57 segundosuma aula complementa a outra. Então, revise as aulas conceituais e depois
+12:0412 minutos e 4 segundosrevise as aulas ao vivo. Como as aulas ficam gravadas, eh, esse recurso de assistir uma aula
+12:1212 minutos e 12 segundosgravada é ótimo para revisar o conteúdo, né, para procurar entender alguma coisa que não entendeu na aula ao vivo, porque
+12:2012 minutos e 20 segundosrealmente a aula ao viva é uma coisa muito rápida, né? Nem sempre eu vou conseguir tirar a sua dúvida em específico, já que aqui nas aulas ao
+12:2912 minutos e 29 segundosVisbo a gente tem eh inúmeros alunos, né? Agora, por exemplo, a gente tá com mais de 500 alunos assistindo a aula ao
+12:3712 minutos e 37 segundosvivo. Então, não tem como eu tirar a dúvida de um por um aqui. Muitas vezes a sua dúvida vai ficar eh sem ter a
+12:4512 minutos e 45 segundosresposta. Então, revise as aulas ao vivo e se permanecer com dúvida, eh, envia o
+12:5312 minutos e 53 segundosprofessor mediador ou pergunte na nossa próxima aula ao vivo que a gente sempre vai procurar sanar tudo para vocês. Mas
+12:5912 minutos e 59 segundosessa dica de revisar as aulas conceituais e as aulas ao vivo são cruciais pro bom desenvolvimento aqui da
+13:0913 minutos e 9 segundosnossa disciplina, tá? pro bom desenvolvimento de vocês.
+13:1413 minutos e 14 segundosSegunda dica aqui, estude os exemplos resolvidos do livro didático.
+13:2013 minutos e 20 segundosO nosso livro ele tá muito bom em exemplos, exercícios.
+13:2613 minutos e 26 segundos[roncando] E é o que eu sempre falo, a gente consegue ã ter uma afinidade maior com cálculo
+13:3413 minutos e 34 segundosum, com cálculo em geral, eh conforme a gente vai resolvendo os exercícios. O
+13:4113 minutos e 41 segundoscálculo é prática, tá? É resolver, resolver resolver vários e vários exercícios. Quanto mais a gente resolve
+13:4913 minutos e 49 segundosexercícios diferentes, hã, mais a gente consegue ter essa afinidade.
+14:3214 minutos e 32 segundosBom, voltou aqui, né? Deu uma travadinha, deu uma travada aqui, mas deixa eu
+14:3914 minutos e 39 segundosvoltar aqui na na segunda dica que é quando travou.
+14:4314 minutos e 43 segundosFalei para vocês estudarem os exercícios resolvidos do livro didático, tá bem?
+14:5014 minutos e 50 segundosTem muitos exercícios ali que são importantes de serem resolvidos. E quanto mais a gente resolve, quanto mais
+14:5814 minutos e 58 segundosa gente estuda, né, eh, estudar aqueles exercícios resolvidos e também exercícios não resolvidos, quanto mais a
+15:0715 minutos e 7 segundosgente pratica, mais a gente fica com uma afinidade maior com essa disciplina de
+15:1415 minutos e 14 segundoscálculo, tá? mais a gente consegue resolver com muito mais facilidade. Tudo bem?
+15:2115 minutos e 21 segundosÃ, depois tente refazer esses exercícios. Então, quando eu falo que é importante estudar
+15:3015 minutos e 30 segundosesse exemplo, esses exemplos do livro, eu digo que não é só a gente ler o que foi resolvido, a maneira que foi
+15:3815 minutos e 38 segundosresolvido e procurar entender. É importante tentar refazer, tá? refazer é procurar, né, escrever
+15:4715 minutos e 47 segundosali, pega um caderno, pega um um rascunho, pega um uma folha de de caderno ali, uma folha sulfite e tenta
+15:5615 minutos e 56 segundosresolver você esse exercício sem olhar no exercício resolvido, tá bem? Então,
+16:0316 minutos e 3 segundosessa parte de tentar refazer é super importante.
+16:0816 minutos e 8 segundosE para finalizar essas dicas aqui, queria dizer para vocês, não decore o passo a passo.
+16:1516 minutos e 15 segundosNão decore o passo a passo porque isso não vai adiantar nada na vida de vocês, tá? Procure entender o raciocínio por
+16:2416 minutos e 24 segundostrás dos dos exercícios, quais foram os conceitos utilizados, tá?
+16:3316 minutos e 33 segundosEntão, ficar decorando o que foi feito, isso não vai adiantar nada, tá certo? O que é importante aqui é a aplicação de
+16:4216 minutos e 42 segundosconceito. E aí cada exercício que surgir, a gente, né, vai ter uma aplicação diferente. Então não adianta
+16:4916 minutos e 49 segundosficar decorando esse passo a passo aí que um exercício sempre vai ser diferente do outro, vai ter uma aplicação diferente.
+16:5816 minutos e 58 segundosEntão é preciso utilizar o conceito, né? do cálculo para a aplicação.
+17:0717 minutos e 7 segundosEstamos entendidos?
+17:0917 minutos e 9 segundosEntão, gente, só para finalizar essas dicas aqui, é o que eu sempre falo, o importante do cálculo não é ficar
+17:1717 minutos e 17 segundosresolvendo um monte de coisa na calculadora, tá? Para isso, eh, existem
+17:2417 minutos e 24 segundoscomputadores, existem calculadoras, existe inteligência artificial que faz isso para nós. [roncando] Vocês como
+17:3217 minutos e 32 segundosengenheiros, têm o papel, tdo vai ser ensinado aqui e aplicar na resolução de problemas.
+17:4217 minutos e 42 segundosCombinado? Estamos combinados aqui.
+17:4917 minutos e 49 segundosEntão vamos para essa paraa nossa primeira aula de cálculo. Gente, primeira coisa que eu queria dizer é que
+17:5717 minutos e 57 segundosa disciplina de cálculo um é uma disciplina comum em todos os cursos de engenharia. Então, não importa qual área
+18:0518 minutos e 5 segundosde engenharia você tá fazendo, não importa ã que que aplicação que você vai fazer no seu dia a dia como engenheiro.
+18:1518 minutos e 15 segundosEh, o cálculo sempre vai tá presente em qualquer curso de engenharia, justamente porque o cálculo um ele vai nos ensinar
+18:2518 minutos e 25 segundosessa base, tá? Então, primeira coisa, o que que a gente vai aprender nessa disciplina de cálculo um?
+18:3718 minutos e 37 segundosA gente vai aprender o que são números, funções.
+18:4318 minutos e 43 segundosA gente vai aprender a como aplicar derivadas e integrais pra função de uma variável.
+18:5218 minutos e 52 segundosE depois a gente vai pegar todos esses conceitos, né, tudo que foi aprendido
+18:5818 minutos e 58 segundospara uma variável e vai aplicar para funções de duas ou mais variáveis,
+19:0719 minutos e 7 segundostá? Então, basicamente a gente vai ver função derivada integral tanto para uma variável, função de uma variável, quanto
+19:1719 minutos e 17 segundospara duas ou mais. É claro que para fins de aprendizado aqui de vocês, eh,
+19:2519 minutos e 25 segundos[roncando] a gente vai focar mais em funções de uma e duas variáveis. Mas eu
+19:3319 minutos e 33 segundosquero que vocês entendam aqui que no dia a dia de um engenheiro, no nosso dia a
+19:4119 minutos e 41 segundosdia mesmo, eh [roncando] a gente tem inúmeras, né? E creio que a
+19:4719 minutos e 47 segundosmaior parte das funções que a gente tem no [limpando a garganta] nosso dia a dia
+19:5319 minutos e 53 segundoseh são funções com mais variáveis, 3 4 5 variáveis.
+20:0120 minutos e 1 segundoEntão pensem vocês ã um exemplo aqui bem bem banal, tá?
+20:0720 minutos e 7 segundosA temperatura que tá hoje. Hoje aqui em Maringá tá super quente, tá um clima bem quente, bem seco.
+20:1620 minutos e 16 segundosA gente precisa sempre de um ventilador aqui. Mas olha só o que que vai determinar essa temperatura, vamos dizer
+20:2520 minutos e 25 segundosassim, essa sensação térmica. Não vou nem falar temperatura, mas essa sensação térmica. Poxa, professora, essa sensação
+20:3320 minutos e 33 segundostérmica vai depender da temperatura que tá, né, da temperatura que tá realmente
+20:4020 minutos e 40 segundosvai depender da umidade do ar, se tá mais úmido, se tá mais seco, um tempo mais seco, eu vou ter uma sensação térmica diferente.
+20:5220 minutos e 52 segundosVai depender da cidade onde eu moro, né? da da cidade onde eu tô, a posição geográfica ali da cidade.
+21:0021 minutosEntão, aqui em Maringá tava super quente hoje, que é a cidade onde eu moro.
+21:0521 minutos e 5 segundos[roncando]
+21:0621 minutos e 6 segundosVocês que moram em São Paulo, ã, sei lá, em Minas Gerais, sempre tem muitos
+21:1221 minutos e 12 segundosalunos de Minas Gerais ou outra cidade aqui do Paraná, mora lá no norte, mora no sul, enfim, cada região do país vai
+21:2221 minutos e 22 segundoster uma temperatura. Então, olha, olha só quantas variáveis a gente já falou
+21:2821 minutos e 28 segundosque vai influenciar aqui nessa sensação térmica, tá? Se eu tô numa cidade com mais altitude, menos altitude,
+21:3721 minutos e 37 segundosse eu tô numa cidade que venta muito ou venta pouco, tudo isso vai influenciar, vai afetar nessa sensação térmica.
+21:4721 minutos e 47 segundosEntão, o que eu queria deixar com esse exemplo é que na realidade, na prática,
+21:5321 minutos e 53 segundoso que a gente vê é muito mais complexo, né? As funções dependem de muitas
+22:0122 minutos e 1 segundovariáveis. Então, o que a gente vai ver aqui hoje, nesse exemplo de função que a gente vai ver nessa aula de hoje, o que
+22:0822 minutos e 8 segundosé uma função, sempre pensem nesse exemplo que eu dei para vocês, tá? Que uma coisa depende da outra. Tá bem?
+22:1822 minutos e 18 segundosEntão, é basicamente o que a gente vai estudar em cálculo um e depois eh por que que a gente estuda
+22:2622 minutos e 26 segundoscálculo um, né? Por que que essa é uma disciplina tão importante para todos os cursos de engenharia?
+22:3422 minutos e 34 segundosEntão, para responder isso aqui, ã, eu trouxe esse esse esses exemplos do dia a
+22:4122 minutos e 41 segundosdia, tá? Então, o cálculo um ou cálculo no geral, ele vai nos
+22:4822 minutos e 48 segundosajudar a entender variações, né? No nosso dia a dia, a gente tem
+22:5522 minutos e 55 segundosvariações o tempo todo. O nosso, a nossa vida tá em constante movimento, né? tem
+23:0423 minutos e 4 segundosvariações o tempo todo. O exemplo de variação de temperatura foi apenas um exemplo do nosso dia a dia que a gente
+23:1123 minutos e 11 segundostem ã várias, né, essa variação de temperatura, por exemplo, a gente tem ao longo do dia várias vezes ao dia. No
+23:2023 minutos e 20 segundosinício do dia começa mais friozinho, vai chegando no meio do dia mais calor, vai chegando à noite, essa temperatura começa a esfriar e assim por diante.
+23:3123 minutos e 31 segundosEntão, como a nossa vida tá em movimento, o cálculo ele vai nos ajudar a entender essas variações.
+23:4023 minutos e 40 segundosQue tipo de variação, né? Já dei esse exemplo de temperatura, mas a gente tem exemplo de crescimento, comportamento de fenômenos físicos.
+23:5123 minutos e 51 segundosEntão, crescimento, a gente tem crescimento em várias coisas, né? por exemplo, crescimento da
+23:5823 minutos e 58 segundosnossa altura, crescimento da nossa fome ao longo do dia, crescimento de bactérias, de vírus,
+24:0724 minutos e 7 segundosné, de microrganismos em geral, ã, crescimento de dinheiro, crescimento de um monte de
+24:1624 minutos e 16 segundoscoisa, né? Então, olha só quantas variações nós temos, tá? e comportamento de fenômenos físicos. Quando vocês forem
+24:2524 minutos e 25 segundosestudar lá na física, com certeza vocês vão estudar muito essa variação, né? O movimento de um carro, por exemplo, né?
+24:3724 minutos e 37 segundoseh demonstra ali o comportamento de um fenômeno físico, onde a gente estuda muito essa variação de velocidade, de
+24:4524 minutos e 45 segundosdistância percorrida, de aceleração e assim por diante. E já adianto que essa disciplina de física depende muito dos conceitos estudados aqui, tá bem?
+24:5824 minutos e 58 segundosEntão o cálculo ele vai nos ajudar a traduzir esses problemas de engenharia
+25:0525 minutos e 5 segundosem uma linguagem matemática. Por isso que ele é tão importante, porque a vida do engenheiro é nada mais
+25:1425 minutos e 14 segundosé do que resolver problemas, né? E o cálculo ele vai traduzir esses problemas
+25:2125 minutos e 21 segundosem uma linguagem matemática para que a gente consiga resolver matematicamente,
+25:2825 minutos e 28 segundosinterpretar matematicamente e conseguir solucionar os problemas. Tudo bem?
+25:4025 minutos e 40 segundosBom, então para começar eh o estudo desse cálculo, né, a nossa
+25:4725 minutos e 47 segundosprimeira aula vai ser focada em números e funções reais. Então, a gente precisa
+25:5525 minutos e 55 segundosentender primeiro o que são esses números, né? Quais números a gente vai estudar e o que que são essas funções, já que a gente vai falar bastante de
+26:0426 minutos e 4 segundosfunção, derivadas integrais mais para frente, a gente precisa entender o que são essas funções. Então, essa aula de
+26:1226 minutos e 12 segundoshoje vem para dar um um basicão. Um basicão não no sentido de de ser
+26:1826 minutos e 18 segundossimplista, tá? um basicão no sentido de ensinar o básico, ensinar a base para
+26:2526 minutos e 25 segundosvocês eh paraas próximas aulas, combinado?
+26:3126 minutos e 31 segundosNessa aula, então, quais são as metas, né? Quais são os objetivos? Que que a gente vai ver nessa aula de hoje? Então,
+26:3926 minutos e 39 segundosprimeiro a gente vai apresentar a definição do conjunto dos números reais e dos intervalos na reta.
+26:4826 minutos e 48 segundosA gente vai definir rigorosamente o conceito de função, porque sim, essa definição rigorosa é importante. A gente
+26:5726 minutos e 57 segundosprecisa entender o que que é uma função, tá? Para como depois tudo depende dela,
+27:0527 minutos e 5 segundosessa definição rigorosa é super importante, tá? Depois a gente vai definir, apresentar ali o plano
+27:1427 minutos e 14 segundoscartesiano, que é onde a gente constrói os gráficos. E a gente vai mostrar aqui como construir essa representação gráfica de alguns tipos de função.
+27:2527 minutos e 25 segundosEntão, como construir os gráficos, OK?
+27:2827 minutos e 28 segundos[roncando] E depois, por fim, a gente vai mostrar os aspectos referentes a uma equação da reta e como construí-la, tá?
+27:3927 minutos e 39 segundosEntão, várias coisas importantes nessa aula de hoje.
+27:4327 minutos e 43 segundosPrimeira coisa, gente, vamos estudar os números.
+27:4827 minutos e 48 segundosOs números eles são agrupados em conjuntos.
+27:5427 minutos e 54 segundosQuando a gente pensa em número, vem, né, pode aparecer qualquer número na nossa cabeça, né? Mas
+28:0228 minutos e 2 segundosquando a gente pensa em número, a gente pensa em 0, 1, 2, 3, números mais inteiros, né? e positivos, porque é algo mais palpável para nós.
+28:1428 minutos e 14 segundosMas existem vários conjuntos, várias formas como com que esses números eles são agrupados. Então, vamos estudar
+28:2328 minutos e 23 segundos[roncando] eh cada um desses conjuntos, tá? Cada um vai ter a sua característica.
+28:2828 minutos e 28 segundosO primeiro conjunto de números que foi criado, vamos dizer assim, são os conjuntos dos números naturais.
+28:4028 minutos e 40 segundosConjunto dos números naturais representado por esse n aqui.
+28:4628 minutos e 46 segundosQuais são os números que compõem esse conjunto dos números naturais? são os
+28:5328 minutos e 53 segundosnúmeros positivos e o número zero. Professora, que número
+28:5928 minutos e 59 segundosque quais números são esses? Então, o número números positivos e zero. Então, zero número um. Opa.
+29:2229 minutos e 22 segundosNúmero um.
+29:2729 minutos e 27 segundosEspera só um pouquinho, gente. Gente,
+30:0230 minutos e 2 segundosaí que eu vou compartilhar. aqui de novo, tá pessoal? Só um pouquinho
+30:1230 minutos e 12 segundospor enquanto, gente. Alguma dúvida? Tudo certo por aí?
+30:2130 minutos e 21 segundosAinda tá fácil, né? Números naturais.
+30:3230 minutos e 32 segundosTudo certo? Tudo certo.
+30:4330 minutos e 43 segundosPronto. Vamos continuar aqui que deixa eu ver se compartilhou. Deixa eu ver.
+31:0031 minutosNão, né?
+31:0231 minutos e 2 segundosDeixa eu compartilhar aqui então com o meu outro computador. Aguenta aí, gente.
+31:2831 minutos e 28 segundosAgora tá mais tranquilo, né?
+31:3531 minutos e 35 segundosVou compartilhar aqui com o meu outro computador daí tudo certo. Вот.
+32:1832 minutos e 18 segundosAí, professor, compartilhei com outro login aqui.
+32:2632 minutos e 26 segundosIsso. Então vamos por esse aqui. Então gente, como eu compartilhei com o meu outro computador, [roncando] eu vou, os slides estão aqui
+32:3532 minutos e 35 segundosdo lado, por isso que eu vou ficar olhando pro lado, tá? Porque senão não consigo escrever.
+32:4432 minutos e 44 segundosVamos lá, então, continuando aqui, ã, números naturais, como eu disse para
+32:5132 minutos e 51 segundosvocês, números naturais são números positivos e número zero. Então, quando a gente
+32:5932 minutos e 59 segundospensa em número natural, a gente pensa em 0 1, 2, 3, 4 e assim por diante. 10,
+33:0933 minutos e 9 segundos20, 1000, 1 milhão. Isso vai para infinito. Todos os números que estão eh
+33:1633 minutos e 16 segundosque são positivos a partir do zero, mas inteiros, né? 0 1 2 3 e assim por
+33:2233 minutos e 22 segundosdiante, fazem parte dos números naturais e eles são representados por essa letra N aqui.
+33:3233 minutos e 32 segundosAgora, a gente pode pensar nesse conjunto de números, mas também completar os números, contemplar os
+33:4033 minutos e 40 segundosnúmeros negativos, que são os números inteiros, que é representado por essa letrinha Z.
+33:4833 minutos e 48 segundosQuais são esses números inteiros? São os naturais que a gente acabou de falar, 0
+33:5533 minutos e 55 segundos1 2 3 e assim por diante até infinito, com os números negativos. Então, -1 - 2.
+34:0334 minutos e 3 segundosEntão, ó, 0 1 2 e assim vai para
+34:1034 minutos e 10 segundosinfinito. E também -1, -2, -3. e aí vai
+34:1734 minutos e 17 segundospara menos infinito. Então, esses números aqui crescem infinitamente
+34:2434 minutos e 24 segundoseh pro positivo que vai para infinito aqui e também cresce infinitamente pro lado
+34:3334 minutos e 33 segundosnegativo, que vai para menos infinito aqui, tá
+34:3934 minutos e 39 segundoscerto? Então, números naturais e números inteiros, tudo tranquilo, né?
+34:4734 minutos e 47 segundosAgora a gente tem também um outro conjunto que a gente chama de conjunto dos números racionais.
+34:5534 minutos e 55 segundosRaionais, que é representado por essa letra Q.
+35:0135 minutos e 1 segundoQue números são esses? São números que podem ser escritos na forma de fração.
+35:0835 minutos e 8 segundosAí a gente já começa a ampliar um pouquinho essa essa quantidade de números, né? Porque, poxa, muitos
+35:1735 minutos e 17 segundosnúmeros podem ser escritos na forma de fração. Então, por exemplo, os números naturais que a gente acabou de ver, 0 1,
+35:2635 minutos e 26 segundos2, 3, são números racionais, porque eles podem ser escritos na forma de fração. Como assim, professora?, né?
+35:3835 minutos e 38 segundosOlha só, se a gente pegar um número um, por exemplo, o número um é um número natural. que a gente viu, né? E também é
+35:4735 minutos e 47 segundosum número inteiro. E ele também é um número racional porque ele pode ser escrito na forma de fração. Como é que
+35:5435 minutos e 54 segundoseu represento esse número um na forma de fração? Posso representar aqui, ó. 1 sobre 1
+36:0236 minutos e 2 segundosé uma fração. 1 di 1 é o quê? 1,
+36:0936 minutos e 9 segundosó. Então, 1 sobre 1 é a mesma coisa que 1.
+36:1536 minutos e 15 segundosSe eu tiver 2 sobre 2, eu também tenho um resultado igual a 1. Então, esse
+36:2336 minutos e 23 segundosnúmero um, ele é um número racional. Eu posso escrever ele sobre uma forma de fração e inúmeras formas de fração ainda. Tudo bem?
+36:3336 minutos e 33 segundosEntão, eh, o número 10,
+36:3936 minutos e 39 segundos10 ã sobre 1 é igual a 10. Conseguir escrever esse 10 na forma de fração,
+36:4936 minutos e 49 segundosposso escrever ele 100 sobre 10 também vou ter um 10 de resposta e assim por diante, tá?
+36:5836 minutos e 58 segundosH, então todo número que pode ser escrito na forma de fração, ele é um número racional. Então, dei aqui
+37:0537 minutos e 5 segundosexemplos básicos, né? 1, 10, mas a gente tem também, olha, não só os naturais
+37:1437 minutos e 14 segundoscomo os inteiros, que todos eles podem ser escritos na forma de fração, mas também eu tenho os números decimais.
+37:2637 minutos e 26 segundosVou trocar de cor. Vou tirar esse.
+37:3137 minutos e 31 segundosTá ruim mesmo, né, para vocês enxergarem.
+37:3737 minutos e 37 segundosÃ, temos os números decimais, como, por exemplo, 01 025. Então, como é que eu
+37:4337 minutos e 43 segundosescrevo 01, que é um número decimal, na forma de fração
+37:5037 minutos e 50 segundos01, eu posso escrever 1 dividido por 10. 1 por 10
+38:0038 minutosdá 0,1. Então eu consegui escrever esse número em uma forma de fração,
+38:0738 minutos e 7 segundostá? Nesse sentido. Então, naturais, inteiros, decimais e as dízimas periódicas.
+38:1838 minutos e 18 segundosdízimas periódicas que tem essas repetições aqui, ó,
+38:2538 minutos e 25 segundosporque tem dízimas periódicas que a gente não consegue escrever na forma de fração. Já a gente vai ver esse
+38:3338 minutos e 33 segundoscaso. Mais dízimas que a gente consegue escrever na forma de fração são dízimas
+38:4038 minutos e 40 segundosem que esses números aqui, ó, se repetem. Então, por exemplo, 0 3 3
+38:4838 minutos e 48 segundosComo é que eu escrevo esse número? Que é um número infinito aqui, né? Esse três fica repetindo infinitamente em uma
+38:5638 minutos e 56 segundosforma de fração. Como é que eu escrevo isso? Se eu pegar o número um, opa, deixa eu mudar de cor aqui. Se eu pegar
+39:0439 minutos e 4 segundoso número um e dividir 1 por 3, coloquem aí na calculadora,
+39:1239 minutos e 12 segundosvocês vão ver que eu vou ter essa dízima periódica aí, ó. Tá? Então, essas
+39:2239 minutos e 22 segundosdízimas periódicas onde esses números repetem, né? Não precisa repetir só um número, não. Como, por exemplo, esse aqui, ó, 052 52.
+39:3539 minutos e 35 segundosTodas essas dízimas a gente consegue escrever na forma de fração, tá? Eh, e
+39:4239 minutos e 42 segundosentão são considerados números racionais. Então, esses números racionais eles vão contemplar uma quantidade enorme de números, tá?
+39:5539 minutos e 55 segundosH, temos também os números irracionais representado por essa letra I aqui. Que
+40:0340 minutos e 3 segundosque são esses números irracionais? É o contrário dos racionais. Então são números que não podem ser escritos na
+40:1140 minutos e 11 segundosforma de fração, são números aleatórios que a gente não consegue construir esse
+40:1740 minutos e 17 segundosnúmero na forma de uma fração. Então, olha, são números que possuem infinitas casas
+40:2740 minutos e 27 segundosdecimais, né, e que elas são não periódicas, porque se for periódica, a gente ainda consegue
+40:3640 minutos e 36 segundoscolocar na forma de fração, que é o que eu coloquei aqui, né, que são dízimas periódicas. Agora, números hã decimais
+40:4540 minutos e 45 segundosque não tem uma sequência, como por exemplo aqui, ó, um número qualquer.
+40:5240 minutos e 52 segundosÃ, vamos pegar aqui um exemplo de √2. Vamos colocar na calculadora
+41:0641 minutos e 6 segundosde 2. Se vocês digitarem aí na calculadora, quanto é que dá, gente?
+41:1641 minutos e 16 segundos2. Coloquei aqui na minha calculadora, ó. Dá 1,41.
+41:2741 minutos e 27 segundosÃ, 41 42 1
+41:3441 minutos e 34 segundos2 e assim por diante, né? Só cabem acho que nove dígitos na calculadora. Então,
+41:4141 minutos e 41 segundospercebam que eu não tenho uma sequência de números, são números aleatórios. Esse número 2, eu não consigo transformar ele
+41:5041 minutos e 50 segundosna forma de fração. E existem números eh números conhecidos que não que a gente
+41:5841 minutos e 58 segundosnão consegue transformar como forma de fração. O √2, o √3, até mesmo o número
+42:0642 minutos e 6 segundospi, né? O número pique é tão conhecido na matemática, a gente não consegue
+42:1242 minutos e 12 segundosescrever ele na forma de fração. O pi é 3,14 9 2 e assim é um número infinito que não
+42:2042 minutos e 20 segundostem essa repetição de números após a vírgula. Então são exemplos aí de números irracionais, tá bem?
+42:3042 minutos e 30 segundosEntão, gente, temos também o conjunto de todos esses números que a gente falou,
+42:3742 minutos e 37 segundosque são o conjunto dos números reais.
+42:4542 minutos e 45 segundosDeixa eu voltar aqui pro vermelho pra gente escrever pros números reais, que é representado por essa letra R. Então,
+42:5242 minutos e 52 segundosesse conjunto dos números reais é a união do conjunto dos números racionais com o conjunto dos números irracionais,
+43:0043 minutosporque o conjunto dos racionais já contempla todos os conjuntos, né, naturais, inteiros.
+43:0943 minutos e 9 segundosEntão, se eu juntar os racionais e os irracionais, eu já tenho o conjunto de todos os números que a gente conhece hoje, tá?
+43:2043 minutos e 20 segundosEntão, representando os conjuntos aqui, dando uma geral, a gente tem os naturais, que é 0 1, 2, 3, 4, até
+43:2843 minutos e 28 segundosinfinito. Nós temos o conjunto dos números inteiros, que são os naturais
+43:3643 minutos e 36 segundosmais os números negativos, que é -1, -2, -3 e assim por diante. [roncando] Temos, contemplando tudo isso, ó, percebam que
+43:4443 minutos e 44 segundosé uma bolinha, é um conjunto dentro do outro. os números racionais, que são aqueles que podem ser escritos na forma
+43:5143 minutos e 51 segundosde fração. Temos um conjunto separadinho aqui, que são os irracionais, porque ou
+43:5743 minutos e 57 segundoso número é racional ou ele é irracional, tá? Não tem como ele ser parte de um e
+44:0444 minutos e 4 segundosde outro, tá? E contemplando tudo isso, tá vendo que é uma bolinha que abraça
+44:1044 minutos e 10 segundostodos esses? São os conjunto dos números reais.
+44:1744 minutos e 17 segundosProfessora, tem outro conjunto de números que não tá representado aqui?
+44:2244 minutos e 22 segundosSim, tem o conjunto dos números complexos, ã, que provavelmente vocês viram no ensino médio, né? Mas aqui pro cálculo
+44:3044 minutos e 30 segundosum, a gente não vai inserir eles ã nos nossos estudos aqui, tá bom? Bom, visto
+44:3944 minutos e 39 segundosessa parte de conjuntos, a gente vai representar alguns conjuntos. Porque eu
+44:4644 minutos e 46 segundosposso ter um conjunto de números específicos. Como assim? Coloquei aqui, ó. Considere um conjunto que eu chamei
+44:5544 minutos e 55 segundosde A. Esse conjunto que eu chamei de A é o quê? [roncando] É um valor de X. É um
+45:0245 minutos e 2 segundosos valores de X que pertencem aos números reais, né? Que é menor ou igual
+45:1045 minutos e 10 segundosa -2, eh, maior ou igual a -2. e menor do que um. Então, eu quero eh saber quais são
+45:2045 minutos e 20 segundosesses números que participam do conjunto A. Que números são esses? X, né? Esses
+45:2845 minutos e 28 segundosvalores são maiores ou iguais a -2 e menores do que 1. Então eu representei esse intervalo nessa reta aqui, tá?
+45:3845 minutos e 38 segundos- 2 - 1,5 - 1. Coloquei aqui alguns números, mas a gente não pode esquecer
+45:4545 minutos e 45 segundosque eu tenho inúmeros números entre eles. Não são só esses aqui, tá?
+45:5345 minutos e 53 segundosTenho a uma infinidade de números, né?
+45:5745 minutos e 57 segundosQue que é importante aqui? a gente saber representar é esse intervalo. Eu disse aqui, ó, deixa eu circular o que é o que
+46:0746 minutos e 7 segundosé importante. Eu disse aqui que o principal fator, ó, que esses números
+46:1446 minutos e 14 segundosdesse conjunto A, ele é menor ou igual maior ou igual a 2. Então [roncando] o
+46:2246 minutos e 22 segundos2, o -2, ele tá incluso nesse intervalo, porque afinal eu quero valores maiores
+46:2946 minutos e 29 segundosou iguais a ele e valores menores do que um, ou seja,
+46:3746 minutos e 37 segundosnão quero incluir o número um. Então, tá vendo que eu incluí o -2 no intervalo e
+46:4446 minutos e 44 segundosexcluí o um? Então, quando eu incluo aqui, ó, que nem aqui, maior ou igual a
+46:5146 minutos e 51 segundos-2, eu incluí o -2, eu represento esse intervalo por essa bolinha fechada.
+46:5946 minutos e 59 segundosquer dizer que esse número que tá na extremidade está incluso nesse
+47:0647 minutos e 6 segundosintervalo. Agora, se eu represento por uma bolinha aberta, quer dizer que esse
+47:1347 minutos e 13 segundosnúmero que tá na extremidade, no caso do um, não está incluído nesse intervalo,
+47:2047 minutos e 20 segundostá bem? Então aqui, ó, utilizamos essa bolinha aberta para indicar que o elemento da fronteira do intervalo não
+47:2847 minutos e 28 segundospertence a esse conjunto. Tá bem?
+47:3747 minutos e 37 segundos[roncando]
+47:3747 minutos e 37 segundosO Reginaldo perguntou: "1.0 não é um?" Exatamente. É igual a 1.
+47:4347 minutos e 43 segundosO zero à direita da vírgula, né? Ele não representa não representa muita coisa, né? para nós.
+47:5247 minutos e 52 segundosÃ, vamos dar um outro exemplo. Olha só, peguei aqui um outro conjunto que eu chamei de B e eu quero representar esse
+48:0048 minutosintervalo, né, os valores de X, que são menores que 4. Se é menor que 4, quer
+48:0848 minutos e 8 segundosdizer que o 4 não vai entrar no meu intervalo, tá? Por isso que eu represento por uma bolinha aberta aqui.
+48:1748 minutos e 17 segundosSó que eu quero todos os valores de x menores que 4. Então, olha só, eu
+48:2448 minutos e 24 segundosrepresento por essa reta com uma infinidade de números aqui, indo lá para
+48:3048 minutos e 30 segundosmenos infinito, tá? Aqui eu não paro em -4. Percebam que eu tenho uma flechinha
+48:3848 minutos e 38 segundosaqui, ó. Quer dizer que eu tenho -4, -5, -6. Todos esses números que estão aqui à
+48:4548 minutos e 45 segundosesquerda são menores. Que tá? Então tudo isso vai para menos
+48:5248 minutos e 52 segundosinfinito. Então, ó, consideramos que essa fronteira esquerda
+48:5748 minutos e 57 segundosã é dada por menos infinito, certo?
+49:0749 minutos e 7 segundosE aí, gente, eu consigo representar esse intervalo eh de uma forma muito mais concisa,
+49:1549 minutos e 15 segundostá? Como é que eu represento esse intervalo, né? Intervalo aberto e intervalo fechado. Quando eu tenho um
+49:2449 minutos e 24 segundosintervalo aberto, lembra que intervalo aberto? Aquela extremidade, ela não vai
+49:3149 minutos e 31 segundosentrar no intervalo, a gente representa por parênteses. Então, olha só, eu quero
+49:3849 minutos e 38 segundosx, que pertence aos números reais, eh, em que x é menor que a,
+49:4549 minutos e 45 segundoseh, maior que a e menor do que b, ou seja, o a e o bam.
+49:5249 minutos e 52 segundosEntão eu represento por um parênteses.
+49:5549 minutos e 55 segundosSe eu tenho um intervalo aberto, eu represento por parênteses.
+50:0150 minutos e 1 segundoParênteses A, que é a extremidade esquerda do intervalo, B, que é a extremidade direita do
+50:0850 minutos e 8 segundosintervalo, tá? E parênteses de novo, quer dizer que o A não entra nesse intervalo e o B também não entra. Agora eu posso indicar um intervalo fechado.
+50:2250 minutos e 22 segundosLembra que intervalo fechado é representado por aquela bolinha fechada?
+50:2650 minutos e 26 segundosEsse intervalo fechado quer dizer que as extremidades entram no intervalo. Então
+50:3350 minutos e 33 segundosaqui, ó, x maior ou igual a A e menor ou igual a B. Ou seja, o A e o B entram no
+50:4250 minutos e 42 segundosintervalo. Por isso eu represento por colchetes.
+50:4650 minutos e 46 segundosColchetes é a forma em que a gente representa o intervalo fechado, tá?
+50:5250 minutos e 52 segundosPosso mesclar, deixar aberto de um lado e fechado de outro e assim por diante, né? Eu tenho várias hã combinações ali.
+51:0251 minutos e 2 segundosEntão, por exemplo, ó, eu posso ter intervalo fechado à esquerda e aberto à
+51:0951 minutos e 9 segundosdireita. Aberto à esquerda e fechado à direita e assim por diante. OK?
+51:1751 minutos e 17 segundosQue que eu queria colocar aqui para vocês de ponto de atenção? Sempre quando eu tenho mais infinito e menos infinito, eu represento por um intervalo aberto.
+51:3151 minutos e 31 segundosEntão, olha só, aqui eu tenho menos infinito.
+51:3551 minutos e 35 segundosEu sempre represento o lado do menos infinito por um parênteses, intervalo aberto, tá?
+51:4351 minutos e 43 segundosEntão aqui, ó, também menos infinito, intervalo aberto, infinito, intervalo aberto, infinito aqui também,
+51:5251 minutos e 52 segundosintervalo aberto. E aí trouxe aqui uma perguntinha para vocês. Olha só esse intervalo.
+52:0152 minutos e 1 segundoMenos infinito até mais infinito representa qual conjunto? Se eu pegar
+52:0652 minutos e 6 segundostodos os eh todos os números, né, desse conjunto, que que conjunto é esse que
+52:1452 minutos e 14 segundosvai desde menos infinito até mais infinito?
+52:1952 minutos e 19 segundosÉ o conjunto dos números reais, tá?
+52:2652 minutos e 26 segundosNúmeros reais. Isso mesmo.
+52:3352 minutos e 33 segundosO Anderson perguntou assim: "Professor, esse sinal não seria os dois menores?" Anderson, não entendi sua pergunta. Como assim os dois menores?
+52:4552 minutos e 45 segundosReformula aí um pouquinho sua pergunta pra gente que para que a gente possa tirar essas dúvidas, a sua dúvida.
+52:5552 minutos e 55 segundosReformula aí, Anderson.
+52:5852 minutos e 58 segundosBom, exercício rápido aqui pra gente interpretar esses intervalos.
+53:0453 minutos e 4 segundosDescreva o intervalo, né, e o conjunto representado pelos gráficos abaixo.
+53:0953 minutos e 9 segundosEntão, olha só, aqui eu tenho um gráfico que vai desde dois com uma bolinha aberta
+53:1653 minutos e 16 segundosaté quatro com uma bolinha fechada. Quer dizer que o dois que tá aqui a extremidade,
+53:2553 minutos e 25 segundosextremidade à esquerda não entra no intervalo e o quatro que tá com uma bolinha fechada, que é a extremidade à
+53:3353 minutos e 33 segundosdireita, entra no intervalo. Então, como é que eu represento esse conjunto? Se eu tenho intervalo aberto no dois,
+53:4153 minutos e 41 segundosrepresento por parênteses intervalo fechado no quatro, represento por colchete.
+53:5053 minutos e 50 segundosAqui o de baixo eu tenho desde o três com uma bolinha fechada.
+53:5653 minutos e 56 segundosEntão o três ele entra no intervalo, então represento por colchete. E aqui,
+54:0354 minutos e 3 segundosolha, eu tenho uma setinha, quer dizer que não para nove. né? Esse número vai crescendo infinitamente até infinito
+54:1254 minutos e 12 segundosmesmo. Então esse número vai para mais infinito. E aí sempre que eu tenho
+54:2054 minutos e 20 segundosinfinito, eu tenho um intervalo aberto, tá? Tudo bem?
+54:3054 minutos e 30 segundosIsso aí.
+54:3354 minutos e 33 segundosBom, falamos então dessa parte de conjuntos e intervalos. Vamos falar um pouquinho de função. Aqui eu quero que
+54:4054 minutos e 40 segundosvocês prestem bastante atenção, tá? A gente vai definir o que que é essa função. Então, função é uma regra que
+54:5054 minutos e 50 segundosassocia dois conjuntos, dois conjuntos de números, um de entrada e um de saída.
+55:0055 minutosEsses números de entrada eu vou chamar de X.
+55:0655 minutos e 6 segundosEsses números de saída eu vou chamar de f(x) ou de, tá? F dex é a mesma coisa que Y.
+55:2055 minutos e 20 segundosO X é o que a gente chama de variável independente, porque a gente pode escolher de forma
+55:2855 minutos e 28 segundosarbitrária, entre aspas, tá? desde que esse x esteja no domínio da função. Já já eu explico o que que é isso. Mas o x
+55:3655 minutos e 36 segundoseu posso escolher de forma arbitrária, então ele é independente de qualquer coisa.
+55:4255 minutos e 42 segundosJá o y ou chamado f(x), ele é a variável dependente. Por que dependente? Porque
+55:5155 minutos e 51 segundosele vai depender do valor de x que eu colocar.
+55:5655 minutos e 56 segundosEntão, o que que vai associar o meu x e o meu f(x), que é o conjunto de entrada
+56:0456 minutos e 4 segundose o conjunto de saída, é essa função, é essa regra que associa esses dois conjuntos, tá?
+56:1556 minutos e 15 segundosH, e aí uma coisa que eu queria dizer que é extremamente importante, olha só,
+56:2156 minutos e 21 segundossó possível ter uma única saída. Isso é definição de função. Para
+56:3156 minutos e 31 segundoscada valor de x de entrada, eu vou ter um único valor de y de saída,
+56:4056 minutos e 40 segundostá? Vamos entender melhor o que que significa isso.
+56:4556 minutos e 45 segundosEntão aqui esse F, gente, é como se fosse uma, na engenharia química que a gente fala de chama de caixinha preta,
+56:5256 minutos e 52 segundosné? É o que associa o X com o Y, a entrada com a saída. Então vamos
+57:0057 minutosentender o que que é domínio, imagem e contradomínio.
+57:0557 minutos e 5 segundosDomínio são os valores de entrada, são os valores de X.
+57:1357 minutos e 13 segundosTá?
+57:1457 minutos e 14 segundosTodos os valores de x que eu posso colocar na minha função, a gente chama de domínio. Então aqui, ó, eu
+57:2357 minutos e 23 segundosrepresentei o conjunto domínio por esse conjunto que eu chamei de A.
+57:2957 minutos e 29 segundosA, B, C, D e E são cinco elementos desse meu conjunto A.
+57:3757 minutos e 37 segundosJá esse conjunto que eu chamei de B é o contradomínio. Que que é isso?
+57:4557 minutos e 45 segundosContradomínio são os números que podem receber essa associação,
+57:5257 minutos e 52 segundostá? São, deixa eu voltar aqui, ó. São os possíveis números, né, desse conjunto de
+58:0058 minutossaída, tá? são os números que podem representar esse conjunto de saída. Então aqui
+58:0758 minutos e 7 segundosrepresentado por P, Q e R, né? São letras aqui para representar possíveis números, tá bem?
+58:1758 minutos e 17 segundosJá ã os números que que o conjunto dos números, né, que a gente chama de imagem
+58:2558 minutos e 25 segundosda função, é representado por esse im aqui, m de f é formado por todos os
+58:3358 minutos e 33 segundosvalores de f dex. Então, todos os números que recebem essa associação de
+58:4158 minutos e 41 segundosverdade para cada valor de x, a gente chama de imagem da função. Então, vamos pegar um exemplo
+58:5058 minutos e 50 segundospara que vocês entendam direitinho o que que é esse domínio, imagem e contradomínio, tá? Então, exemplo aqui,
+58:5858 minutos e 58 segundosconsidere um conjunto que eu chamei de a contemplado por 1 2 3 4 5, que é o domínio da função, ou seja, são os
+59:0759 minutos e 7 segundosvalores de x da função. E o contradomínio eu chamei de b. Lembra que o conjunto que a gente chama de
+59:1559 minutos e 15 segundoscontradomínio são os números que podem hã estar associados
+59:2259 minutos e 22 segundosa essa função que podem, não que realmente está, porque o que realmente está é chamado de imagem. Então esse conjunto B que eu chamei de
+59:3059 minutos e 30 segundoscontradomínio é 0 2 4 6 8 10 12 14 16.
+59:3559 minutos e 35 segundosOk? Então vamos criar uma função que associe esses dois conjuntos. Que função é essa? Lembra que função é a regra que
+59:4459 minutos e 44 segundosassocia o x com o y? Então, que regra que associa esses valores de x aqui com
+59:5459 minutos e 54 segundosesses valores de y? Ele deu para nós essa regra, essa que a gente chamou de função, chama-se 2x. Então, f(x) = 2x.
+1:00:071 hora e 7 segundos[roncando] Determine o conjunto imagem.
+1:00:101 hora e 10 segundosLembra que o conjunto imagem é o conjunto de saída. Para cada x eu tenho
+1:00:161 hora e 16 segundosum único valor de Y. Então, para cada x único valor de y. Então, vou fazer essa
+1:00:241 hora e 24 segundosconta, vou pegar essa regra de 2x e vou aplicar para cada valor de x, tá? Então
+1:00:331 hora e 33 segundoseu tenho x = 1, x = 2, 3,
+1:00:391 hora e 39 segundos4 e 5. Então para x = 1, quanto que vai
+1:00:441 hora e 44 segundosdar o meu valor de y? Se x = 1, 2 x 1, 2.
+1:00:521 hora e 52 segundosSe x = 2, 2 x 2= 4. Para x = 3, 2 x 3= 6.
+1:01:021 hora, 1 minuto e 2 segundos2 x 4 8 2 x 5 10. Então, olha só os
+1:01:071 hora, 1 minuto e 7 segundosvalores de y aqui. A minha imagem de f
+1:01:131 hora, 1 minuto e 13 segundosvai ser igual 2 4 6 8 10.
+1:01:231 hora, 1 minuto e 23 segundosSempre que eu quero representar todos os números de um conjunto, eu vou representar por essas chaves aqui, tá?
+1:01:311 hora, 1 minuto e 31 segundosAí eu consigo colocar todos [roncando] os os números daquele conjunto, tá?
+1:01:371 hora, 1 minuto e 37 segundosEntão, olha só, o conjunto domínio, 1 2 3 4 5, o contradomínio são aqueles
+1:01:441 hora, 1 minuto e 44 segundosnúmeros que podem estar associados a essa função. 0 2 4 6 até 16. E qual que
+1:01:521 hora, 1 minuto e 52 segundossão os números que realmente está associado a essa função? Apenas o 2, 4
+1:02:001 hora e 2 minutose o 10. Tá? Coisa importante, detalhe importante, o conjunto imagem precisa
+1:02:081 hora, 2 minutos e 8 segundosestar dentro do conjunto do contradomínio, tá bem? Podem ser iguais, podem, mas
+1:02:161 hora, 2 minutos e 16 segundospodem ser diferentes também. O importante é que o conjunto imagem sempre esteja dentro do conjunto do
+1:02:241 hora, 2 minutos e 24 segundoscontradomínio. O que a gente vai falar nas aulas é domínio e imagem, tá? Os valores de X e os valores de Y.
+1:02:341 hora, 2 minutos e 34 segundosTudo bem?
+1:02:361 hora, 2 minutos e 36 segundosDeixa eu tomar uma aguinha aqui pra gente dar continuidade. Já falamos de função, né? O que que é essa regra? eh função.
+1:02:481 hora, 2 minutos e 48 segundosAgora vamos falar um pouquinho sobre como que a gente desenha essa função, que é através do gráfico. O gráfico é
+1:02:571 hora, 2 minutos e 57 segundosuma representação, é uma figura ali de como a gente vai representar essa função que a gente tá estudando, tá?
+1:03:081 hora, 3 minutos e 8 segundosA gente vai representar os gráficos aqui no plano cartesiano. Esse plano cartesiano é um plano em que eu tenho
+1:03:171 hora, 3 minutos e 17 segundosdois eixos, o eixo X e o eixo Y. Então, a gente pode desenhar
+1:03:251 hora, 3 minutos e 25 segundosqualquer gráfico eh de qualquer função nesse plano cartesiano. Esse plano cartesiano, ele é contemplado por quatro quatro quadrantes.
+1:03:391 hora, 3 minutos e 39 segundosEh, por que quatro quadrantes? Porque os de x, os valores de x, a gente vai contemplar aqui, ó, valores
+1:03:481 hora, 3 minutos e 48 segundosnegativos e os valores positivos.
+1:03:531 hora, 3 minutos e 53 segundosOs valores de Y também, valores positivos e valores negativos.
+1:04:011 hora, 4 minutos e 1 segundoEntão, quando a gente faz a combinação desses valores positivos e negativos para X e para Y, a gente tem como se
+1:04:091 hora, 4 minutos e 9 segundosfosse uma divisão em quatro, tá? Que é o primeiro quadrante, o segundo, o terceiro e o quarto. O primeiro
+1:04:171 hora, 4 minutos e 17 segundosquadrante ele vai contemplar só valores positivos. Então, olha, valores
+1:04:231 hora, 4 minutos e 23 segundospositivos de de Y e valores positivos de X. O segundo quadrante, ele vai
+1:04:301 hora, 4 minutos e 30 segundosrepresentar, vai contemplar valores positivos para Y e negativos para X. O
+1:04:381 hora, 4 minutos e 38 segundosterceiro quadrante vai contemplar negativos de X e negativos de Y.
+1:04:451 hora, 4 minutos e 45 segundosE o quarto quadrante vai contemplar positivos para X e negativos para Y.
+1:04:511 hora, 4 minutos e 51 segundosEntão essa combinação, dependendo do que for, a gente vai representar esses pontos dentro desses quatro quadrantes, tá?
+1:05:011 hora, 5 minutos e 1 segundoComo é que a gente representa os pontos, né? Porque pra gente construir o gráfico, que é essa representação da
+1:05:091 hora, 5 minutos e 9 segundosfunção nesses nesse plano cartesiano, a gente precisa ir construindo pontos.
+1:05:151 hora, 5 minutos e 15 segundosEsses pontos a gente representa por um para ordenado. Que que é isso? para
+1:05:221 hora, 5 minutos e 22 segundosordenado. Então, cada ponto eu vou, né, tô representando aqui por um
+1:05:301 hora, 5 minutos e 30 segundospor um ponto que eu chamei de P qualquer. Esse ponto P, ele vai ser representado por um par ordenado, que é
+1:05:371 hora, 5 minutos e 37 segundosa sua coordenada X e a sua coordenada Y, tá? Esse ponto P, ó, se a gente for
+1:05:451 hora, 5 minutos e 45 segundostraçar uma reta paralela ao eixo Y, onde que ele bate lá no eixo X? Em um
+1:05:521 hora, 5 minutos e 52 segundosponto chamado que eu chamei de P, um pouquinho maior do que três. E aqui, se eu traçar uma reta paralela ao eixo X,
+1:06:021 hora, 6 minutos e 2 segundosné, ele vai bater lá no eixo Y em um número que eu chamei de Q, né, um ponto ali, acho que próximo de quatro, mais ou menos.
+1:06:111 hora, 6 minutos e 11 segundosEntão, eh, esse ponto P ele vai ser representado dessa forma. O para ordenado, ele é representado dessa
+1:06:191 hora, 6 minutos e 19 segundosforma. Parênteses, a coordenada X, vírgula, a coordenada Y e fecha
+1:06:261 hora, 6 minutos e 26 segundosparênteses, tá? A gente vai ver com um pouquinho mais de detalhes nesse exemplo. Agora vamos começar com um exemplo simples, ó.
+1:06:371 hora, 6 minutos e 37 segundosVamos começar com um exemplo bem simples, que é uma função do primeiro grau. É uma reta. Que função é essa? Que
+1:06:441 hora, 6 minutos e 44 segundosregra é essa que associa o eixo X com o eixo Y? Essa regra aqui, ó, que eu
+1:06:501 hora, 6 minutos e 50 segundoschamei de 4x - 2. Então, como é que eu represento esse gráfico?
+1:06:581 hora, 6 minutos e 58 segundosEu vou escolher de forma arbitrária o eixo, os valores de x arbitrária, entre
+1:07:051 hora, 7 minutos e 5 segundosaspas, tá? Porque eu preciso escolher eh os valores de x desde que eles estejam
+1:07:121 hora, 7 minutos e 12 segundosdentro do domínio da função, tá? Nesse caso aqui, o valor de x que eu queira
+1:07:191 hora, 7 minutos e 19 segundoscolocar aqui pode ser qualquer número real. Então eu escolhi -1, 0, 2, 3 e 4.
+1:07:271 hora, 7 minutos e 27 segundosE para cada número de x eu vou ter um número de y, que é o f dex, né? Então,
+1:07:351 hora, 7 minutos e 35 segundospor exemplo, para x igual para x = -1, para x = -1, que continha
+1:07:451 hora, 7 minutos e 45 segundosque eu faço? 4 x -1, porque no lugar do x eu coloco -1. 4 x -1, -4.
+1:07:541 hora, 7 minutos e 54 segundos- 2 eu vou ter a resposta -6. Para x = 0.
+1:08:011 hora, 8 minutos e 1 segundo4 x 0 0 - 2 - 2
+1:08:091 hora, 8 minutos e 9 segundos4 x 2 8 - 2 6
+1:08:161 hora, 8 minutos e 16 segundos4 x 3 12 - 2 10 4 x 5 20 - 2 18 Então,
+1:08:261 hora, 8 minutos e 26 segundospara cada xculei esse valor de y e aí Aí eu vou construir essa esse gráfico, essa
+1:08:341 hora, 8 minutos e 34 segundosrepresentação, tá? Então aqui eu tenho vários, tenho tenho 1 2 3 4 5 cinco
+1:08:411 hora, 8 minutos e 41 segundospares ordenados. Para cada par ordenado, eu vou ter um ponto aqui no meu gráfico.
+1:08:481 hora, 8 minutos e 48 segundosEntão aqui, ó, eu vou representar esse par ordenado -1, que é o valor de x, e
+1:08:551 hora, 8 minutos e 55 segundos-6, que é o valor de y. Aqui eu tenho 0 e - 2.
+1:09:041 hora, 9 minutos e 4 segundosAqui eu tenho 2 e 6. Aqui eu tenho 3 e 10. E por último aqui eu tenho 5 e 18.
+1:09:181 hora, 9 minutos e 18 segundosEntão eu tenho cinco pares ordenados.
+1:09:191 hora, 9 minutos e 19 segundosLembrando, gente, ã, esses parênteses que eu tô colocando aqui de a parêntese da esquerda e da
+1:09:291 hora, 9 minutos e 29 segundosdireita, não tem nada a ver com essa representação de intervalo que a gente acabou de falar, de intervalo aberto e
+1:09:371 hora, 9 minutos e 37 segundosfechado, tá? Aqui os parênteses eles são usados porque é assim que a gente representa o par ordenado, é assim que a
+1:09:441 hora, 9 minutos e 44 segundosgente representa o ponto parênteses x, a coordenada x, vírgula e a
+1:09:511 hora, 9 minutos e 51 segundoscoordenada y fecha parênteses, tá? Não tem nada a ver com o intervalo aberto fechado.
+1:09:581 hora, 9 minutos e 58 segundosAgora, para cada par ordenado desse, eu tenho um ponto, né? Vamos representar
+1:10:061 hora, 10 minutos e 6 segundosesses pontos aqui. Primeiro ponto é o ponto -1 e -6. -1 para x e -6
+1:10:161 hora, 10 minutos e 16 segundospara y. Então, olha só, aqui na reta x, ó,
+1:10:221 hora, 10 minutos e 22 segundoseu vou lá e procuro o -1. Ele tá aqui
+1:10:291 hora, 10 minutos e 29 segundos-1. Então eu traço uma reta paralela ao eixo Y, desde lá de cima até lá embaixo.
+1:10:441 hora, 10 minutos e 44 segundosQual que é o par ordenado y aqui? Qual que é a coordenada y? -6.
+1:10:501 hora, 10 minutos e 50 segundos-6. Eu vou lá no eixo y e procuro onde tá o -6. -6 tá por aqui,
+1:10:571 hora, 10 minutos e 57 segundosné? - 6 aqui, mais ou menos. Então eu vou lá nesse -6 e traço uma reta,
+1:11:071 hora, 11 minutos e 7 segundosné? Mais ou menos. Aqui tá meio torto porque eu tô fazendo a mão, né, gente?
+1:11:111 hora, 11 minutos e 11 segundosTraço uma reta paralela ao eixo X e vejo onde essas retas se cruzam. Onde essas
+1:11:191 hora, 11 minutos e 19 segundosretas se cruzarem é o ponto que eu tô querendo desenhar -1 e -6. Então é exatamente esse ponto aqui, ó.
+1:11:291 hora, 11 minutos e 29 segundosTá? Vou lá e faço um pontinho. Próxima.
+1:11:331 hora, 11 minutos e 33 segundosPróximo para ordenado. 0 e -2. Então, coordenada x é 0, coordenada y é -2.
+1:11:431 hora, 11 minutos e 43 segundosEntão, vou lá na reta do x, procuro onde tá o zero. O zero tá bem aqui, ó.
+1:11:501 hora, 11 minutos e 50 segundosBem aqui no eixo X.
+1:11:541 hora, 11 minutos e 54 segundosE o y - 2. Y - 2 tá aqui, ó. Então, eu traço uma reta aqui, ó.
+1:12:051 hora, 12 minutos e 5 segundosOnde que as retas se cruzaram? Aqui, gente, eu não tracei uma reta paralela ao eixo Y, porque é o é o próprio eixo,
+1:12:131 hora, 12 minutos e 13 segundosné? Como x é igual a 0, a reta paralela que eu traço eh ao eixo Y é o próprio
+1:12:201 hora, 12 minutos e 20 segundoseixo Y. Então, é essa própria reta aqui, onde as retas se cruzam, é esse ponto 0 e -2.
+1:12:291 hora, 12 minutos e 29 segundosVamos fazer o último aqui, só pra gente fechar o exemplo. 2 e 6. Então, x é 2, é 6. Então, X2 tá aqui.
+1:12:421 hora, 12 minutos e 42 segundosTraço uma reta paralela ao eixo Y, desde lá de cima até lá embaixo.
+1:12:511 hora, 12 minutos e 51 segundosE o eixo Y é seis. Então eu vou lá aqui no seis. Seis tá mais ou menos aqui, né?
+1:12:581 hora, 12 minutos e 58 segundosE traço uma reta paralela ao eixo X.
+1:13:061 hora, 13 minutos e 6 segundosficou fora aqui, né? Porque eu tô fazendo a mão. Mas onde que essas retas se cruzam?
+1:13:121 hora, 13 minutos e 12 segundosNesse pontinho aqui, né?
+1:13:161 hora, 13 minutos e 16 segundosEntão, onde se cruzar é o nosso parordenado. Então, para ficar mais limpo a nossa o nosso desenho aqui, ó.
+1:13:291 hora, 13 minutos e 29 segundosDeixa eu tirar essas retas paralelas pra gente ver os pares ordenados, tá? Então aqui é que aqui tá
+1:13:381 hora, 13 minutos e 38 segundosescrito de uma forma diferente, mas esse par ordenado aqui é -1 e -6.
+1:13:471 hora, 13 minutos e 47 segundosIsso aí. Esse para ordenado aqui é 0 e -2.
+1:13:541 hora, 13 minutos e 54 segundosEsse ponto aqui é formado pelo para ordenado 2 e 6.
+1:14:001 hora e 14 minutosEsse é o 3 e 10. E esse é o 5
+1:14:071 hora, 14 minutos e 7 segundose 18, tá? É assim que a gente hã
+1:14:111 hora, 14 minutos e 11 segundos[roncando]
+1:14:131 hora, 14 minutos e 13 segundosconstrói e vai construindo o gráfico. Ã e aí, gente, como é que eu uno esses pontos? Porque eu tenho pontos aqui
+1:14:211 hora, 14 minutos e 21 segundosaleatórios, né? Se eu pego pontos valores de x próximos um do outro, eu consigo ver mais ou menos como que se
+1:14:291 hora, 14 minutos e 29 segundosliga esses pontos. Mas se eu pego pontos espaçados, eu não sei muito como que esses pontos
+1:14:361 hora, 14 minutos e 36 segundosse ligam, né? Como é que [roncando] eu sei como que se que esses pontos se unem
+1:14:421 hora, 14 minutos e 42 segundosatravés da minha da minha função? Essa é uma função do primeiro grau. Eu sei que
+1:14:501 hora, 14 minutos e 50 segundoso desenho dela é uma reta, por isso que eu consigo unir esses pontos em uma
+1:14:571 hora, 14 minutos e 57 segundosreta, tá? Por isso que eu sei que para unir esses pontos não é assim, né?
+1:15:041 hora, 15 minutos e 4 segundosPoderia ser uma curva totalmente aleatória. Como que eu sei que é uma reta e não essa curva doida? pelo pela
+1:15:121 hora, 15 minutos e 12 segundosminha função, que é uma função do primeiro grau. E aí eu sei que a união é uma reta, tá? Vamos pegar um outro exemplo aqui.
+1:15:221 hora, 15 minutos e 22 segundosEssa é uma função do segundo grau, né?
+1:15:251 hora, 15 minutos e 25 segundosuma parábola que todo mundo estudou lá no ensino médio.
+1:15:301 hora, 15 minutos e 30 segundosMaior expoente aqui, ó, do x é o 2. Vou fazer a mesma coisa, uma função quadrática, uma função do segundo grau.
+1:15:391 hora, 15 minutos e 39 segundosPego valores de x e calculo os valores de f(x), os valores de y. Então, pego
+1:15:471 hora, 15 minutos e 47 segundosvalores aleatórios do equ. 0 1 2 3 e 4. Claro que dentro do domínio da função.
+1:15:561 hora, 15 minutos e 56 segundosPara cada valor de x eu calculo quanto que dá o f(x). Então aqui já tá calculadinho para vocês, né? Para quando
+1:16:041 hora, 16 minutos e 4 segundoso x vale 0, [roncando] o f dex, que é o y vale 3. Quando o x vale 1, o y vale 0.
+1:16:121 hora, 16 minutos e 12 segundose assim por diante. E aí eu consigo traçar aqui o meu gráfico para cada par
+1:16:191 hora, 16 minutos e 19 segundosordenado, né? Eu coloco um ponto ali da reta.
+1:16:241 hora, 16 minutos e 24 segundosEntão aqui, ó, esse ponto aqui é o ponto 0 e 3. Esse ponto aqui é o ponto 1 e 0.
+1:16:351 hora, 16 minutos e 35 segundosEsse ponto aqui é o ponto 2. 2 - 1. Opa, escrevi errado. 2 e - 1.
+1:16:481 hora, 16 minutos e 48 segundosIsso. Vírgula. Esse ponto aqui é o ponto 3 0. E esse aqui para fechar
+1:16:571 hora, 16 minutos e 57 segundos4 e 3.
+1:17:011 hora, 17 minutos e 1 segundoÃ, professora, como é que eu uno esses pontos, né? Porque olha, na no exemplo
+1:17:081 hora, 17 minutos e 8 segundospassado, você uniu pontos na forma de uma reta. E se aqui continuasse esse mesmo pensamento? E tudo isso aqui seria
+1:17:151 hora, 17 minutos e 15 segundosum V, não essa curva, né? Não, essa parábola, que é o que a gente conhece.
+1:17:221 hora, 17 minutos e 22 segundosEu sei exatamente que é uma parábola pela minha função. Funções do segundo grau, funções quadráticas.
+1:17:331 hora, 17 minutos e 33 segundosEu uno os pontos nesse formato de parábola, tá? Isso é um conhecimento que
+1:17:401 hora, 17 minutos e 40 segundosque tem que ter. Claro que ninguém aqui vai ficar decorando o comportamento de função de todas as funções, porque nem
+1:17:471 hora, 17 minutos e 47 segundostem como fazer isso. Mas as básicas a gente tem como tem como saber, tá? As
+1:17:561 hora, 17 minutos e 56 segundosprincipais, né? Ã, perguntaram aqui, ó, o ponto 2 e -1 tem um nome específico, né? Sim. É o vértice da minha parábola.
+1:18:071 hora, 18 minutos e 7 segundosÉ o vértice da minha parábola. E tem como a gente descobrir que ponto é esse através do cálculo, né? É claro que lá
+1:18:151 hora, 18 minutos e 15 segundosno ensino médio a gente aprende, eu acho que uma formulinha, se eu não me engano, para descobrir que ponto é esse, que é o
+1:18:221 hora, 18 minutos e 22 segundosvértice da função. Mas aqui, olha, pra gente descobrir o vértice dessa função, basta a gente aplicar a regra de
+1:18:301 hora, 18 minutos e 30 segundosderivada, que esse ponto aqui é o ponto mínimo da minha função, né? Não tem
+1:18:371 hora, 18 minutos e 37 segundosnúmero menor do que -1. Concordam? Todos os números de y aqui são maiores que -1.
+1:18:461 hora, 18 minutos e 46 segundosEntão, eh, esse vértice é o mínimo da função. E para saber o mínimo da função,
+1:18:531 hora, 18 minutos e 53 segundosmáximos e mínimos, a gente usa uma aplicação de derivada, tá?
+1:19:031 hora, 19 minutos e 3 segundosCerto?
+1:19:061 hora, 19 minutos e 6 segundosE agora entramos paraa última parte da nossa aula, em que a gente vai falar sobre a equação da reta.
+1:19:131 hora, 19 minutos e 13 segundosÃ, o estudo da reta ela é extremamente importante, tá? A gente acabou de ver um
+1:19:201 hora, 19 minutos e 20 segundosexemplo de uma função do primeiro grau, que é esse exemplo aqui, ó. Deixa eu voltar.
+1:19:261 hora, 19 minutos e 26 segundosEsse primeiro exemplo que a gente viu é uma equação da reta. é uma função do primeiro grau. Função do primeiro grau a
+1:19:351 hora, 19 minutos e 35 segundosgente chama de eh uma uma equação da reta, né, que é uma equação da reta.
+1:19:411 hora, 19 minutos e 41 segundosToda função do primeiro grau é representada por uma reta.
+1:19:461 hora, 19 minutos e 46 segundosToda função do primeiro grau vai ter esse estilo.
+1:19:501 hora, 19 minutos e 50 segundosUm número que multiplica x mais ou menos um outro número, tá? vai
+1:20:001 hora e 20 minutoster esse padrão. Esse padrão é representado dessa forma aqui, ó.
+1:20:071 hora, 20 minutos e 7 segundosY ou também chamado de f(x), né, que é a mesma coisa.
+1:20:131 hora, 20 minutos e 13 segundosVai ser um número qualquer, positivo, negativo, né? Enfim, um número qualquer aqui
+1:20:221 hora, 20 minutos e 22 segundosque multiplica x mais ou menos. a gente representa esse
+1:20:291 hora, 20 minutos e 29 segundosmais porque hã toda subtração, na verdade é uma soma, né? Mas a gente representa mais aqui para deixar de forma aleatória.
+1:20:401 hora, 20 minutos e 40 segundosMais ou menos um número qualquer B.
+1:20:441 hora, 20 minutos e 44 segundosEntão, toda a equação da reta vai ter esse formato padrão.
+1:20:511 hora, 20 minutos e 51 segundosCada eh número aqui vai representar uma coisa. Então aqui,
+1:20:581 hora, 20 minutos e 58 segundospercebam que a gente tem dois números, o M e o B.
+1:21:051 hora, 21 minutos e 5 segundosO X vai continuar sendo X e o Y vai continuar sendo Y. Dependendo do valor
+1:21:121 hora, 21 minutos e 12 segundosnumérico que eu tenho em M e do valor numérico que eu tenho em B, são funções completamente diferentes,
+1:21:211 hora, 21 minutos e 21 segundostá? Esse m, que é o número que tá multiplicando o x, a gente vai chamar
+1:21:271 hora, 21 minutos e 27 segundosele de coeficiente angular.
+1:21:321 hora, 21 minutos e 32 segundosE ele vai tá associado à inclinação da reta. Gente, isso é muito importante, tá? Prestem atenção aqui. Isso aqui não é balela não. Isso é muito importante.
+1:21:431 hora, 21 minutos e 43 segundosVai hã se prolongar esse conhecimento que eu tô falando aqui, esse conceito em várias
+1:21:511 hora, 21 minutos e 51 segundoscoisas pro futuro. Nessa disciplina ainda tá ainda em cálculo. Então essa inclinação da reta, esse comportamento é
+1:22:001 hora e 22 minutosextremamente importante, tá? Esse conceito aqui. Então o número que tá multiplicando x, ele é o coeficiente
+1:22:081 hora, 22 minutos e 8 segundosangular. E ele vai representar a inclinação da reta. Quanto maior esse número que tá multiplicando x, mais
+1:22:171 hora, 22 minutos e 17 segundosinclinada vai ser essa reta que que o gráfico vai representar, tá?
+1:22:231 hora, 22 minutos e 23 segundosJá o B, que é esse número sozinho aqui, ele vai ser chamado de coeficiente
+1:22:301 hora, 22 minutos e 30 segundoslinear e ele vai tá atrelado à intersecção do eixo Y,
+1:22:371 hora, 22 minutos e 37 segundostá? Como assim? Olha o exemplo da função que a gente viu. Quem que é o coeficiente angular aqui? É o número que
+1:22:471 hora, 22 minutos e 47 segundostá multiplicando x, ou seja, é o 4. O 4 ele vai tá associado à inclinação da
+1:22:561 hora, 22 minutos e 56 segundosreta. Inclinação dessa reta aqui, ó. Tem retas mais inclinadas e tem retas menos inclinadas.
+1:23:061 hora, 23 minutos e 6 segundosEsse coeficiente linear que é o -2,
+1:23:131 hora, 23 minutos e 13 segundosele vai tá representando onde corta o eixo Y, a intersecção
+1:23:211 hora, 23 minutos e 21 segundosdo eixo Y. Então, olha só onde essa reta vai cortar o eixo Y
+1:23:271 hora, 23 minutos e 27 segundoslá em -2. Então, eu já sei desenhar essa reta ã só batendo o olho na função. Eu
+1:23:371 hora, 23 minutos e 37 segundosnão preciso ficar desenhando ponto a ponto e unir esses pontos. Não preciso.
+1:23:431 hora, 23 minutos e 43 segundosPelos conceitos de equação da reta e pelas características, eu já consigo fazer o desenho, tá
+1:23:511 hora, 23 minutos e 51 segundosbom? Como é que a gente calcula isso então, né? calcula através do gráfico, por exemplo. Vamos imaginar que a gente
+1:24:001 hora e 24 minutosnão soubesse essa função e a gente tivesse só o gráfico. Como é que a gente calcularia esse coeficiente angular e
+1:24:091 hora, 24 minutos e 9 segundoscoeficiente linear? [roncando] Ã, coeficiente angular, que é o m aqui, ó, que é o que tá, o número que tá
+1:24:181 hora, 24 minutos e 18 segundosmultiplicando x, ele é dado por isso aqui, δx.
+1:24:261 hora, 24 minutos e 26 segundosé uma variação do eixo Y por uma variação do eixo X. [roncando] Posso pegar essa variação para qualquer dois
+1:24:351 hora, 24 minutos e 35 segundospontos. Qual aqui eu tenho cinco pontos, né? Posso pegar qualquer variação e a variação de qualquer dois pontos. Vamos
+1:24:441 hora, 24 minutos e 44 segundospegar essa, esse ponto aqui e esse ponto aqui.
+1:24:491 hora, 24 minutos e 49 segundosEsse ponto aqui, ó, se eu não me engano, é o x é = 2,
+1:24:571 hora, 24 minutos e 57 segundosné? Quando x = 2, 4 x 2 8 - 2 6. Então é
+1:25:021 hora, 25 minutos e 2 segundos2 e 6. Então ele bate lá no eixo Y em seis.
+1:25:111 hora, 25 minutos e 11 segundos[suspirando]
+1:25:121 hora, 25 minutos e 12 segundosAqui é 3 4 x 3 12 - 2 10. Então no eixo Y ele bate lá em 10.
+1:25:281 hora, 25 minutos e 28 segundosQual que é a minha já tá até aqui, né?
+1:25:311 hora, 25 minutos e 31 segundosQual que é a variação que eu tenho no eixo Y? Olha, para esse ponto o Y foi 10. Para esse ponto o Y foi 6. Então o
+1:25:411 hora, 25 minutos e 41 segundosque que eu faço? 10 - 6. Agora eu penso dessa mesma maneira, só que pro eixo X.
+1:25:501 hora, 25 minutos e 50 segundosEntão pego esses mesmos dois pontos, né?
+1:25:541 hora, 25 minutos e 54 segundosPosso pegar qualquer qualquer dois pontos, mas eu tenho que pegar os mesmos para Y e para X. Olha aqui a variação
+1:26:041 hora, 26 minutos e 4 segundospara o X é 3 e 2, tá? Então, 10 - 6 4 3
+1:26:131 hora, 26 minutos e 13 segundos- 2, 1. 4/ 1 4. Eu descubro quem que é,
+1:26:221 hora, 26 minutos e 22 segundosquem que é esse meu coeficiente angular. Então, eu já descubro que o
+1:26:291 hora, 26 minutos e 29 segundosnúmero que tá multiplicando aqui o x é 4.
+1:26:341 hora, 26 minutos e 34 segundosO coeficiente linear, desculpa, gente, aqui tá errado, ó. linear, não é angular, tá? Corrijam aí.
+1:26:431 hora, 26 minutos e 43 segundosJá o coeficiente linear é onde corta o eixo Y. Onde que tá cortando o eixo Y?
+1:26:511 hora, 26 minutos e 51 segundosLá em -2.
+1:26:541 hora, 26 minutos e 54 segundosEntão eu já descubro aqui, né? -2, descubro esse aqui também, tá? Então é
+1:27:011 hora, 27 minutos e 1 segundoassim que a gente descobre os coeficientes angular e linear.
+1:27:121 hora, 27 minutos e 12 segundosPerguntaram: "Professora, dá para fazer com o valor negativo e chegar no mesmo resultado, né? Com certeza. Posso pegar
+1:27:191 hora, 27 minutos e 19 segundosqualquer ponto, tá? Inclusive esse ponto aqui que tem valores negativos de Y e X.
+1:27:281 hora, 27 minutos e 28 segundosQue que deve eh ter de atenção? O jogo de sinal, tá? Porque é sempre uma variação, né? né?
+1:27:361 hora, 27 minutos e 36 segundosQuando a gente faz menos um número negativo, a gente tem que fazer o jogo de sinal ali que menos com menos dá mais
+1:27:451 hora, 27 minutos e 45 segundose fazer as contas certinho, tá? E para fechar a nossa aula, para eh finalizar
+1:27:521 hora, 27 minutos e 52 segundosessa esse comportamento de de equação da reta, ã, eu tenho aqui, ó, uma reta
+1:28:001 hora e 28 minutoscrescente, que a gente chama de crescente. A gente tem que o coeficiente angular,
+1:28:071 hora, 28 minutos e 7 segundosque é que fala sobre a inclinação da reta, é positivo. Então, olha só, quando o meu coeficiente angular é positivo, eu tenho uma reta nesse sentido.
+1:28:181 hora, 28 minutos e 18 segundosQuanto maior os meus valores de x, [limpando a garganta] maior os meus valores de y.
+1:28:251 hora, 28 minutos e 25 segundosAgora, se eu tenho um coeficiente angular negativo menor do que zero, eu já tenho uma reta
+1:28:351 hora, 28 minutos e 35 segundosnesse sentido, que é quanto maior o meu valor de x, menor o meu valor de Y. Por isso que a reta vai decrescendo, tá? né?
+1:28:451 hora, 28 minutos e 45 segundosEntão eu tenho uma reta decrescente ã nesse ponto.
+1:28:531 hora, 28 minutos e 53 segundosE aí eh se eu quiser comparar duas retas paralelas, olha só, eu tenho uma reta,
+1:29:031 hora, 29 minutos e 3 segundosné, com uma função aqui qualquer e eu tenho uma outra reta com uma função aqui qualquer. Essas duas retas são paralelas.
+1:29:121 hora, 29 minutos e 12 segundosE olha que interessante, para eu ter essas retas paralelas, concordam comigo que elas vão ter a mesma inclinação?
+1:29:211 hora, 29 minutos e 21 segundosEu só desloco elas para cima ou para baixo, mas elas têm a mesma inclinação.
+1:29:281 hora, 29 minutos e 28 segundosEu porque se eu tiver uma reta mais inclinada e outra menos, uma hora elas vão se cruzar. Se eu tiver a mesma
+1:29:361 hora, 29 minutos e 36 segundosinclinação para as duas, né, elas nunca vão se cruzar. E aí é o que eu chamo de retas paralelas.
+1:29:441 hora, 29 minutos e 44 segundosSe elas têm a mesma inclinação, quer dizer o quê? Que elas têm o mesmo
+1:29:511 hora, 29 minutos e 51 segundoscoeficiente angular. Por lembra que o coeficiente angular é o que fala sobre a inclinação
+1:29:581 hora, 29 minutos e 58 segundosda reta? Se eles têm, se as retas têm a mesma inclinação, elas possuem o mesmo coeficiente
+1:30:061 hora, 30 minutos e 6 segundosangular. Então, olha só como que é a equação da reta das duas.
+1:30:131 hora, 30 minutos e 13 segundosMX + B2, MX + B1. Ou seja, B1 e B2, que
+1:30:201 hora, 30 minutos e 20 segundossão os coeficientes lineares, eles mudam. Um eu chamei de B1, outro eu chamei de B2, quer dizer que são número
+1:30:261 hora, 30 minutos e 26 segundosdiferente. Mas o número que tá multiplicando aqui o X
+1:30:331 hora, 30 minutos e 33 segundosé o mesmo que eu chamei de M. Então é o mesmo número para retas paralelas.
+1:30:411 hora, 30 minutos e 41 segundosTá bem? Tudo certo, pessoal? Encerramos a nossa aula de hoje.
+1:30:491 hora, 30 minutos e 49 segundosConsegui contemplar tudo que eu queria aqui.
+1:30:541 hora, 30 minutos e 54 segundosÃ, espero que as dúvidas de vocês tenham ficado esclarecidas pelo professor Víor.
+1:31:021 hora, 31 minutos e 2 segundosCom certeza ele respondeu muito aqui.
+1:31:081 hora, 31 minutos e 8 segundosTudo bem? Alguma dúvida que deixei passar? Acredito que tá tudo certo, né?
+1:31:171 hora, 31 minutos e 17 segundosBom, mas gente, seguindo as dicas da professora, revisem a aula, assistam essa aula quantas vezes forem
+1:31:241 hora, 31 minutos e 24 segundosnecessárias e se ainda restar dúvidas, mandem pro professor mediador. Eh, se
+1:31:321 hora, 31 minutos e 32 segundostiver muita dúvida repetida, o professor mediador ele passa para mim e na próxima aula eu procuro dar mais ênfase em
+1:31:391 hora, 31 minutos e 39 segundosalguma coisa ou outra que deixou, né, que que passou nessa aula de hoje, certo?
+1:31:461 hora, 31 minutos e 46 segundosFico por aqui. Muito obrigada pela presença de todos. Boa semana e até a semana que vem. Até mais.
+1:31:571 hora, 31 minutos e 57 segundos[música]
