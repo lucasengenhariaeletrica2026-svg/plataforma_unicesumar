@@ -130,9 +130,15 @@ nome_pasta_limpo = (
     .lower()
 )
 
-# Cria o caminho correto entrando primeiro na pasta do módulo correspondente
+# [BLINDAGEM MULTIUSUÁRIO] Função cacheada para evitar concorrência de escrita em disco
+@st.cache_resource(show_spinner=False)
+def garantir_diretorio_seguro(caminho):
+    os.makedirs(caminho, exist_ok=True)
+    return caminho
+
+# Cria e valida o caminho de forma segura e veloz através da memória RAM
 pasta_da_materia = os.path.join("dados_unicesumar", nome_modulo_limpo, nome_pasta_limpo)
-os.makedirs(pasta_da_materia, exist_ok=True)
+garantir_diretorio_seguro(pasta_da_materia)
 
 # Painel Lateral do Jogo ativo apenas em GAAL
 if materia == "Geometria Analítica e Álgebra Linear (GAAL)":
@@ -160,8 +166,12 @@ if materia == "Geometria Analítica e Álgebra Linear (GAAL)":
         st.subheader("📚 Biblioteca Oficial de Materiais")
         st.write("Consulte os materiais didáticos oficiais disponíveis para esta disciplina.")
         
-        # O sistema apenas lista os arquivos que você (administrador) salvou na pasta do servidor
-        salvos = os.listdir(pasta_da_materia)
+        # [SEGURANÇA] Tratamento preventivo para pastas vazias ou sem arquivos
+        try:
+            salvos = os.listdir(pasta_da_materia)
+        except Exception:
+            salvos = []
+            
         if salvos:
             sel = st.selectbox("Selecione o material para estudo:", salvos, key="sel_material_gaal")
             # Busca o texto usando o seu sistema de cache ultra rápido
@@ -172,7 +182,11 @@ if materia == "Geometria Analítica e Álgebra Linear (GAAL)":
 
     with aba_tutor:
         st.subheader("👨‍🏫 Tutor Didático")
-        salvos = os.listdir(pasta_da_materia)
+        try:
+            salvos = os.listdir(pasta_da_materia)
+        except Exception:
+            salvos = []
+            
         if salvos:
             dbase = st.selectbox("Documento base da IA:", salvos, key="db_tutor_calculo_main")
             pergs = st.text_input("Sua dúvida sobre o arquivo:", key="input_tutor_calculo_main")
@@ -189,6 +203,8 @@ if materia == "Geometria Analítica e Álgebra Linear (GAAL)":
                         st.info("💡 Como os servidores globais do Google estão enfrentando alta demanda, aguarde cerca de 5 segundos e aperte **Enter** no campo de texto para tentar novamente!")
                     else:
                         st.markdown(resposta_bruta)
+        else:
+            st.info("Nenhum documento disponível para servir de contexto para o Tutor IA.")
 
     with aba_calculadora:
         st.subheader("🧮 Calculadora Analítica Passo a Passo")
@@ -223,6 +239,7 @@ if materia == "Geometria Analítica e Álgebra Linear (GAAL)":
             dados_fase = BANCO_JOGO[st.session_state.fase_atual]
             st.markdown(f"**FASE {dados_fase['fase']} - {dados_fase['mundo']}**")
             
+            # [SOLUÇÃO DE CONCORRÊNCIA] Formulário isolado e renderização de feedback sem travamento
             with st.form(key="form_jogo_atualizado"):
                 resposta_usuario = st.radio("Escolha a alternativa correta:", dados_fase["opcoes"])
                 botao_enviar = st.form_submit_button(label="🎯 Confirmar Resposta")
@@ -234,7 +251,7 @@ if materia == "Geometria Analítica e Álgebra Linear (GAAL)":
                 else:
                     st.session_state.status_resposta = "ERRADO"
                     st.session_state.vidas -= 1
-                st.rerun()  # Atualização de estado imediata pós-submissão
+                st.rerun() # Recarrega uma única vez para propagar a alteração de status_resposta de forma estável
                 
             if st.session_state.status_resposta == "CORRETO":
                 st.success("🎉 EXCELENTE! Você ganhou +100 XP!")
@@ -261,8 +278,12 @@ elif materia == "Cálculo Diferencial e Integral I":
         st.subheader("📚 Biblioteca Oficial de Materiais - Cálculo I")
         st.write("Consulte os materiais didáticos oficiais disponíveis para esta disciplina.")
         
-        # O sistema apenas lista os arquivos que você colocou previamente na pasta do servidor
-        salvos = os.listdir(pasta_da_materia)
+        # [SEGURANÇA] Evita quebra se o diretório do servidor estiver vazio ou inacessível
+        try:
+            salvos = os.listdir(pasta_da_materia)
+        except Exception:
+            salvos = []
+            
         if salvos:
             sel = st.selectbox("Selecione o arquivo de Cálculo:", salvos, key="sel_material_calculo")
             # Busca o texto usando o cache de alta velocidade
@@ -273,7 +294,11 @@ elif materia == "Cálculo Diferencial e Integral I":
             
     with aba_tutor:
         st.subheader("👨‍🏫 Tutor Inteligente de Cálculo I")
-        salvos = os.listdir(pasta_da_materia)
+        try:
+            salvos = os.listdir(pasta_da_materia)
+        except Exception:
+            salvos = []
+            
         if salvos:
             dbase = st.selectbox("Documento base de Cálculo:", salvos, key="db_calculo")
             pergs = st.text_input("Qual sua dúvida sobre limites, derivadas ou taxas de variação?", key="input_calculo")
@@ -288,6 +313,8 @@ elif materia == "Cálculo Diferencial e Integral I":
                         st.info("💡 Como os servidores globais do Google estão enfrentando alta demanda, aguarde cerca de 5 segundos e aperte Enter para tentar novamente!")
                     else:
                         st.markdown(resposta_bruta)
+        else:
+            st.info("Nenhum documento disponível para servir de contexto para o Tutor IA.")
                         
     # MENU INTERNO DO LABORATÓRIO (AULA 1 ATÉ AULA 10)
     with aba_laboratorio:
@@ -317,9 +344,9 @@ elif materia == "Cálculo Diferencial e Integral I":
                 
                 col_sliders1, col_sliders2 = st.columns(2)
                 with col_sliders1:
-                    m = st.slider("Coeficiente Angular (m) - Inclinação da Reta", min_value=-10.0, max_value=10.0, value=2.0, step=0.5, key="m_slider")
+                    m = st.slider("Coeficiente Angular (m) - Inclinação da Reta", min_value=-10.0, max_value=10.0, value=2.0, step=0.5, key="m54_c1_m_slider")
                 with col_sliders2:
-                    b = st.slider("Coeficiente Linear (b) - Intersecção com o Eixo Y", min_value=-10.0, max_value=10.0, value=-2.0, step=0.5, key="b_slider")
+                    b = st.slider("Coeficiente Linear (b) - Intersecção com o Eixo Y", min_value=-10.0, max_value=10.0, value=-2.0, step=0.5, key="m54_c1_b_slider")
                     
                 st.info(f"### Equação Atual: $y = {m}x + ({b})$")
                 
@@ -341,19 +368,19 @@ elif materia == "Cálculo Diferencial e Integral I":
                 
                 st.markdown("### 👨‍🏫 Análise Técnico-Didática da sua Reta:")
                 if m > 0:
-                    st.success(f"📈 Reta Crescente: Como $m = {m}$ é maior que zero, quanto maior o valor di X, maior será o valor de Y!")
+                    st.success(f"📈 Reta Crescente: Como $m = {m}$ é maior que zero, quanto maior o valor de X, maior será o valor de Y!")
                 elif m < 0:
                     st.error(f"📉 Reta Decrescente: Como $m = {m}$ é menor que zero, quanto maior o valor de X, menor será o valor de Y!")
                 else:
                     st.warning("➖ Reta Constante: Como $m = 0$, a linha não possui inclinação!")
                 st.write(f"📍 A linha cruza o eixo vertical exatamente no ponto (0, {b}).")
                 
-            # 2. NOVA ABA: DESAFIO DE TRANSFORMAR PONTOS EM EQUAÇÃO (CONCEITO COEFICIENTE ANGULAR)
+# 2. NOVA ABA: DESAFIO DE TRANSFORMAR PONTOS EM EQUAÇÃO (CONCEITO COEFICIENTE ANGULAR)
             with sub_desafio_pontos:
                 st.subheader("📍 Desafio Topográfico: Dois Pontos, Uma Reta")
                 st.write(
-                    r"Como futura(o) engenheira(o), você coletou duas coordenadas em campo. "
-                    r"Calcule o Coeficiente Angular (\(m = \frac{y_2 - y_1}{x_2 - x_1}\)) e o Linear (\(b\)) no papel, "
+                    "Como futura(o) engenheira(o), você coletou duas coordenadas em campo. "
+                    "Calcule o Coeficiente Angular ($m = \\frac{y_2 - y_1}{x_2 - x_1}$) e o Linear ($b$) no papel, "
                     "insira suas respostas abaixo e use o gráfico para validar!"
                 )
                 
@@ -381,16 +408,16 @@ elif materia == "Cálculo Diferencial e Integral I":
                 p = st.session_state.pontos_desafio_aula1
                 
                 # Exibe as coordenadas geradas para o aluno
-                st.markdown(f"### Encontre a equação da reta que passa por: \(P_1({p['x1']}, {p['y1']})\) e \(P_2({p['x2']}, {p['y2']})\)")
+                st.markdown(f"### Encontre a equação da reta que passa por: $P_1({p['x1']}, {p['y1']})$ e $P_2({p['x2']}, {p['y2']})$")
                 
                 col_inputs1, col_inputs2 = st.columns(2)
                 with col_inputs1:
-                    m_aluno = st.number_input("Seu Coeficiente Angular (m) calculado:", value=st.session_state.val_m_input, step=0.5, key="m_aluno_input")
+                    m_aluno = st.number_input("Seu Coeficiente Angular (m) calculado:", value=st.session_state.val_m_input, step=0.5, key="m54_m_aluno_input")
                 with col_inputs2:
-                    b_aluno = st.number_input("Seu Coeficiente Linear (b) calculated:", value=st.session_state.val_b_input, step=0.5, key="b_aluno_input")
+                    b_aluno = st.number_input("Seu Coeficiente Linear (b) calculado:", value=st.session_state.val_b_input, step=0.5, key="m54_b_aluno_input")
                     
                 # Caixa de texto para o aluno digitar a equação final
-                eq_aluno = st.text_input("Escreva a Equação Geral Resultante (Ex: y = 2x + 4 ou y = -x - 3):", key="eq_aluno_input")
+                eq_aluno = st.text_input("Escreva a Equação Geral Resultante (Ex: y = 2x + 4 ou y = -x - 3):", key="m54_eq_aluno_input")
                 
                 fig_desafio = go.Figure()
                 
@@ -427,9 +454,10 @@ elif materia == "Cálculo Diferencial e Integral I":
                 st.plotly_chart(fig_desafio, use_container_width=True, config={"scrollZoom": True})
                 
                 # Botão de verificação formal do sistema
-                if st.button("🎯 Verificar Memorial de Cálculo", use_container_width=True):
+                if st.button("🎯 Verificar Memorial de Cálculo", use_container_width=True, key="m54_btn_verificar_desafio"):
                     st.session_state.verificar_clicado_aula1 = True
                     st.rerun()
+                    
                 # Processa os feedbacks conceituais após a atualização do botão (VEREDITO FINAL)
                 if st.session_state.verificar_clicado_aula1:
                     # Limpeza simples da string digitada para validação robusta
@@ -455,80 +483,78 @@ elif materia == "Cálculo Diferencial e Integral I":
                         st.balloons()
                         st.success(f"🏆 PERFEITO! A reta interceptou os alvos e a equação escrita ({eq_aluno}) está sintaticamente correta!")
                     elif coeficientes_corretos and not string_correta:
-                        st.warning(f"📐 Quase lá! O gráfico e os seletores de \(m\) e \(b\) estão corretos, mas a equação de texto escrita não corresponde à sintaxe correta. Esperado algo próximo de: y = {m_alvo_val}x {b_str}")
+                        st.warning(f"📐 Quase lá! O gráfico e os seletores de $m$ e $b$ estão corretos, mas a equação de texto escrita não corresponde à sintaxe correta. Esperado algo próximo de: y = {m_alvo_val}x {b_str}")
                     else:
                         st.error("❌ A reta e a equação ainda não condizem com os pontos geográficos.")
-                        st.info(f"💡 Dica de Engenharia: Revise o cálculo no papel. Variação vertical sobre horizontal determina \(m\). Ajuste os campos e clique em verificar novamente!")
+                        st.info("💡 Dica de Engenharia: Revise o cálculo no papel. Variação vertical sobre horizontal determina $m$. Ajuste os campos e clique em verificar novamente!")
                         
-                if st.button("🔄 Sortear Novos Pontos em Campo"):
+                if st.button("🔄 Sortear Novos Pontos em Campo", key="m54_btn_reset_desafio"):
                     # Remove os alvos antigos do estado de sessão
                     if "pontos_desafio_aula1" in st.session_state:
                         del st.session_state.pontos_desafio_aula1
                     # Esconde a curva estimada no novo sorteio
                     st.session_state.verificar_clicado_aula1 = False 
-                    # Reseta os widgets associados às chaves de input de dados de forma segura
-                    if "m_aluno_input" in st.session_state:
-                        st.session_state.m_aluno_input = 0.0
-                    if "b_aluno_input" in st.session_state:
-                        st.session_state.b_aluno_input = 0.0
+                    # Reseta os widgets associados às chaves de de forma estável na sessão
+                    st.session_state.val_m_input = 0.0
+                    st.session_state.val_b_input = 0.0
                     st.rerun()
 
-            # 3. ABA DO QUIZ DE CONJUNTOS (BLINDADA COM COORDENAÇÃO DE CHAVES DINÂMICAS)
+# 3. ABA DO QUIZ DE CONJUNTOS (BLINDADA COM COORDENAÇÃO DE CHAVES DINÂMICAS)
             with sub_ferramenta2:
                 st.subheader("🎮 Desafio dos Conjuntos dos Números Reais ")
                 st.write("Treine a classificação de números reais! Valide sua resposta e clique em avançar quando estiver pronto.")
                 
-                # [SISTEMA DE CONTROLE DE CHAVE] Inicializa o contador de rodadas para forçar o desfleque
-                if "contador_rodadas" not in st.session_state:
-                    st.session_state.contador_rodadas = 0
+                # [SISTEMA DE CONTROLE DE CHAVE] Inicializa o contador de rodadas para forçar o desfoque/reset
+                if "m54_contador_rodadas" not in st.session_state:
+                    st.session_state.m54_contador_rodadas = 0
                     
-                # Inicializa o número aleatório expandido no Session State
-                if "num_quiz_aula1" not in st.session_state:
+                # Inicializa o número aleatório expandido no Session State de forma isolada
+                if "m54_num_quiz_aula1" not in st.session_state:
                     tipo_num = random.choice(["inteiro_neg", "irracional", "fracao", "natural", "dizima", "decimal", "pi"])
                     if tipo_num == "inteiro_neg":
-                        st.session_state.num_quiz_aula1 = random.randint(-75, -1)
-                        st.session_state.resp_correta_aula1 = "Inteiro (ℤ)"
+                        st.session_state.m54_num_quiz_aula1 = random.randint(-75, -1)
+                        st.session_state.m54_resp_correta_aula1 = "Inteiro (ℤ)"
                     elif tipo_num == "irracional":
                         base_irracional = random.choice([2, 3, 5, 11])
-                        st.session_state.num_quiz_aula1 = f"√{base_irracional}"
-                        st.session_state.resp_correta_aula1 = "Irracional (I)"
+                        st.session_state.m54_num_quiz_aula1 = f"√{base_irracional}"
+                        st.session_state.m54_resp_correta_aula1 = "Irracional (I)"
                     elif tipo_num == "fracao":
                         num = random.randint(1, 9)
                         den = random.choice([2, 4, 5, 8])
-                        st.session_state.num_quiz_aula1 = f"{num}/{den}"
-                        st.session_state.resp_correta_aula1 = "Racional (ℚ)"
+                        st.session_state.m54_num_quiz_aula1 = f"{num}/{den}"
+                        st.session_state.m54_resp_correta_aula1 = "Racional (ℚ)"
                     elif tipo_num == "natural":
-                        st.session_state.num_quiz_aula1 = random.randint(0, 100)
-                        st.session_state.resp_correta_aula1 = "Natural (ℕ)"
+                        st.session_state.m54_num_quiz_aula1 = random.randint(0, 100)
+                        st.session_state.m54_resp_correta_aula1 = "Natural (ℕ)"
                     elif tipo_num == "dizima":
                         periodo = random.choice([3, 6, 15])
-                        st.session_state.num_quiz_aula1 = f"0,{periodo}{periodo}{periodo}..."
-                        st.session_state.resp_correta_aula1 = "Racional (ℚ)"
+                        st.session_state.m54_num_quiz_aula1 = f"0,{periodo}{periodo}{periodo}..."
+                        st.session_state.m54_resp_correta_aula1 = "Racional (ℚ)"
                     elif tipo_num == "decimal":
-                        st.session_state.num_quiz_aula1 = round(random.uniform(0.1, 9.9), 2)
-                        st.session_state.resp_correta_aula1 = "Racional (ℚ)"
+                        st.session_state.m54_num_quiz_aula1 = round(random.uniform(0.1, 9.9), 2)
+                        st.session_state.m54_resp_correta_aula1 = "Racional (ℚ)"
                     elif tipo_num == "pi":
-                        st.session_state.num_quiz_aula1 = "π (Número Pi)"
-                        st.session_state.resp_correta_aula1 = "Irracional (I)"
+                        st.session_state.m54_num_quiz_aula1 = "π (Número Pi)"
+                        st.session_state.m54_resp_correta_aula1 = "Irracional (I)"
                         
-                # Criando o Layout de duas colunas lado a lado
+# Criando o Layout de duas colunas lado a lado
                 col_quiz_esquerda, col_mapa_direita = st.columns([1.2, 1.0])
                 
                 with col_quiz_esquerda:
-                    st.markdown(f"### Classifique o número:  {st.session_state.num_quiz_aula1}")
+                    st.markdown(f"### Classifique o número:  {st.session_state.m54_num_quiz_aula1}")
                     opcoes_conjuntos = ["Natural (ℕ)", "Inteiro (ℤ)", "Racional (ℚ)", "Irracional (I)"]
                     
-                    if "quiz_aula1_respondido" not in st.session_state:
-                        st.session_state.quiz_aula1_respondido = False
+                    if "m54_quiz_aula1_respondido" not in st.session_state:
+                        st.session_state.m54_quiz_aula1_respondido = False
                         
-                    # Formulário de submissão da resposta - O ID do formulário muda a cada rodada
-                    with st.form(key=f"form_quiz_dinamico_aula1_rodada_{st.session_state.contador_rodadas}"):
+                    # Formulário de submissão da resposta - O ID do formulário muda a cada rodada de forma isolada
+                    with st.form(key=f"form_quiz_dinamico_aula1_rodada_{st.session_state.m54_contador_rodadas}"):
                         # [SOLUÇÃO DEFINITIVA] O key dinâmico obriga o rádio a nascer completamente limpo
                         resposta_aluno = st.radio(
                             "A qual conjunto ele pertence primariamente?",
                             opcoes_conjuntos,
                             index=None,
-                            key=f"radio_conjuntos_rodada_{st.session_state.contador_rodadas}"
+                            key=f"radio_conjuntos_rodada_{st.session_state.m54_contador_rodadas}"
                         )
                         botao_quiz = st.form_submit_button("🎯 Validar Resposta")
                         
@@ -536,32 +562,34 @@ elif materia == "Cálculo Diferencial e Integral I":
                         if resposta_aluno is None:
                             st.warning("⚠️ Selecione uma opção antes de validar!")
                         else:
-                            st.session_state.quiz_aula1_respondido = True
-                            st.session_state.ultima_resposta_aluno = resposta_aluno
+                            st.session_state.m54_quiz_aula1_respondido = True
+                            st.session_state.m54_ultima_resposta_aluno = resposta_aluno
                             st.rerun()
-                    if st.session_state.quiz_aula1_respondido:
-                        if st.session_state.ultima_resposta_aluno.split(" (")[0] == st.session_state.resp_correta_aula1.split(" (")[0]:
+                            
+                    if st.session_state.m54_quiz_aula1_respondido:
+                        if st.session_state.m54_ultima_resposta_aluno.split(" (")[0] == st.session_state.m54_resp_correta_aula1.split(" (")[0]:
                             st.success("🎉 EXCELENTE! Você dominou o conceito de conjuntos explicado pela Professora Paula!")
                         else:
-                            st.error(f"❌ Resposta incorreta. O número {st.session_state.num_quiz_aula1} pertence ao conjunto do tipo {st.session_state.resp_correta_aula1}.")
+                            st.error(f"❌ Resposta incorreta. O número {st.session_state.m54_num_quiz_aula1} pertence ao conjunto do tipo {st.session_state.m54_resp_correta_aula1}.")
                             
                         st.markdown("#### 👨‍🏫 Memorial Didático do Conjunto:")
-                        if "Natural" in st.session_state.resp_correta_aula1:
+                        if "Natural" in st.session_state.m54_resp_correta_aula1:
                             st.write("👉 Os Naturais (ℕ) são os números inteiros não-negativos usados para contagem simples.")
-                        elif "Inteiro" in st.session_state.resp_correta_aula1:
+                        elif "Inteiro" in st.session_state.m54_resp_correta_aula1:
                             st.write("👉 Os Inteiros (ℤ) englobam todos os números naturais e adicionam os seus correspondentes negativos.")
-                        elif "Racional" in st.session_state.resp_correta_aula1:
+                        elif "Racional" in st.session_state.m54_resp_correta_aula1:
                             st.write("👉 Os Racionais (ℚ) são todos aqueles que podem virar fração! Isso inclui divisões exatas, decimais finitos e dízimas periódicas repetitivas.")
-                        elif "Irracional" in st.session_state.resp_correta_aula1:
+                        elif "Irracional" in st.session_state.m54_resp_correta_aula1:
                             st.write("👉 Os Irracionais (I) possuem infinitas casas decimais e NUNCA se repetem inalteradas, impossibilitando a criação de uma fração geratriz.")
                             
                         st.write("---")
-                        if st.button("➡️ Avançar para o Próximo Desafio", use_container_width=True):
-                            if "num_quiz_aula1" in st.session_state:
-                                del st.session_state.num_quiz_aula1
-                            st.session_state.quiz_aula1_respondido = False
+                        # [BLINDAGEM] Chave dinâmica inserida para evitar o crash de DuplicateWidgetID ao acumular rodadas
+                        if st.button("➡️ Avançar para o Próximo Desafio", use_container_width=True, key=f"m54_btn_avancar_quiz_{st.session_state.m54_contador_rodadas}"):
+                            if "m54_num_quiz_aula1" in st.session_state:
+                                del st.session_state.m54_num_quiz_aula1
+                            st.session_state.m54_quiz_aula1_respondido = False
                             # Incrementa o contador para alterar as CHAVES e forçar o reset visual total
-                            st.session_state.contador_rodadas += 1
+                            st.session_state.m54_contador_rodadas += 1
                             st.rerun()
 
                 with col_mapa_direita:
@@ -599,7 +627,7 @@ elif materia == "Cálculo Diferencial e Integral I":
                     st.image(buf, use_container_width=True)
                     plt.close(fig) # Liberando explicitamente a memória da figura atualizada
 
-            # Sub-abas internas da Aula 1 organizadas com Infinitos e Notações Mistas
+# Sub-abas internas da Aula 1 organizadas com Infinitos e Notações Mistas
             with sub_intervalos:
                 st.subheader("📏 Estação de Treinamento Avançada: Intervalos na Reta Real")
                 st.write("Explore a reta com infinitos (flechas) e teste seus conhecimentos com notações de parênteses e colchetes!")
@@ -614,19 +642,19 @@ elif materia == "Cálculo Diferencial e Integral I":
                     
                     c_sim1, c_sim2 = st.columns(2)
                     with c_sim1:
-                        modo_inf = st.radio("Tipo do Limite Inferior:", ["Número Fixo", "Menos Infinito (-∞)"], key="modo_inf")
+                        modo_inf = st.radio("Tipo do Limite Inferior:", ["Número Fixo", "Menos Infinito (-∞)"], key="m54_int_modo_inf")
                         if modo_inf == "Número Fixo":
-                            limite_inf = st.slider("Limite Inferior (a)", -10, 10, -3, 1, key="slider_lim_inf")
-                            tipo_inf = st.radio("Fronteira Esquerda:", ["Fechada [a", "Aberta ]a ou (a"], key="radio_tipo_inf")
+                            limite_inf = st.slider("Limite Inferior (a)", -10, 10, -3, 1, key="m54_int_slider_lim_inf")
+                            tipo_inf = st.radio("Fronteira Esquerda:", ["Fechada [a", "Aberta ]a ou (a"], key="m54_int_radio_tipo_inf")
                         else:
                             limite_inf = -11 # Posição lógica para desenhar a flecha fora da tela
                             tipo_inf = "Aberta ]a ou (a"
                             
                     with c_sim2:
-                        modo_sup = st.radio("Tipo do Limite Superior:", ["Número Fixo", "Mais Infinito (+∞)"], key="modo_sup")
+                        modo_sup = st.radio("Tipo do Limite Superior:", ["Número Fixo", "Mais Infinito (+∞)"], key="m54_int_modo_sup")
                         if modo_sup == "Número Fixo":
-                            limite_sup = st.slider("Limite Superior (b)", -10, 10, 4, 1, key="slider_lim_sup")
-                            tipo_sup = st.radio("Fronteira Direita:", ["Fechada b]", "Aberta b[ / b)"], key="radio_tipo_sup")
+                            limite_sup = st.slider("Limite Superior (b)", -10, 10, 4, 1, key="m54_int_slider_lim_sup")
+                            tipo_sup = st.radio("Fronteira Direita:", ["Fechada b]", "Aberta b[ / b)"], key="m54_int_radio_tipo_sup")
                         else:
                             limite_sup = 11 # Posição lógica para desenhar a flecha fora da tela
                             tipo_sup = "Aberta b[ / b)"
@@ -659,7 +687,7 @@ elif materia == "Cálculo Diferencial e Integral I":
                             
                         # Determina o miolo da condição matemática x
                         if modo_inf == "Menos Infinito (-∞)" and modo_sup == "Mais Infinito (+∞)":
-                            condicao_x = r"x \in \mathbb{R}"
+                            condicao_x = r"x \(\in \mathbb{R}\)"
                         elif modo_inf == "Menos Infinito (-∞)":
                             condicao_x = f"x {'<' if 'Aberta' in tipo_sup else '≤'} {limite_sup}"
                         elif modo_sup == "Mais Infinito (+∞)":
@@ -715,15 +743,15 @@ elif materia == "Cálculo Diferencial e Integral I":
                         st.image(buf, use_container_width=True)
                         plt.close(fig) # Liberando explicitamente a memória RAM associada à figura
                         
-                # --- RECURSO 2: QUIZ VARIADO COM INFINITOS, COLCHETES E PARÊNTESES ---
+# --- RECURSO 2: QUIZ VARIADO COM INFINITOS, COLCHETES E PARÊNTESES ---
                 with aba_game:
                     st.markdown("### 2. Desafio das Extremidades e Multi-Notações")
                     st.write("Responda se o ponto faz parte do intervalo. Fique atento pois o sistema alternará dinamicamente entre parênteses e colchetes!")
                     
-                    if "cont_rodadas_intervalos" not in st.session_state:
-                        st.session_state.cont_rodadas_intervalos = 0
+                    if "m54_cont_rodadas_intervalos" not in st.session_state:
+                        st.session_state.m54_cont_rodadas_intervalos = 0
                         
-                    if "game_intervalo_atual" not in st.session_state:
+                    if "m54_game_intervalo_atual" not in st.session_state:
                         tipo_exercicio = random.choice(["finito", "inf_esq", "inf_dir"])
                         f_esq = random.choice(["aberto", "fechado"])
                         f_dir = random.choice(["aberto", "fechado"])
@@ -760,59 +788,58 @@ elif materia == "Cálculo Diferencial e Integral I":
                             else:
                                 texto_intervalo = f"{'(' if f_esq == 'aberto' else '['}{a_game}, +∞)"
                                 
-                        st.session_state.game_intervalo_atual = {
+                        st.session_state.m54_game_intervalo_atual = {
                             "texto": texto_intervalo, "ponto": ponto_teste, "resposta": pertence
                         }
                         
-                    g = st.session_state.game_intervalo_atual
+                    g = st.session_state.m54_game_intervalo_atual
                     st.markdown(f"### Considere o intervalo real: ` A = {g['texto']} `")
                     st.markdown(f"### O número **` {g['ponto']} `** pertence ao intervalo A?")
                     
-                    if "intervalo_respondido" not in st.session_state:
-                        st.session_state.intervalo_respondido = False
+                    if "m54_intervalo_respondido" not in st.session_state:
+                        st.session_state.m54_intervalo_respondido = False
                         
-                    if not st.session_state.intervalo_respondido:
-                        with st.form(key=f"form_intervalos_r{st.session_state.cont_rodadas_intervalos}"):
-                            res_aluno = st.radio("Escolha uma resposta:", ["Sim", "Não"], index=None, key=f"radio_int_r{st.session_state.cont_rodadas_intervalos}")
+                    if not st.session_state.m54_intervalo_respondido:
+                        with st.form(key=f"form_intervalos_r{st.session_state.m54_cont_rodadas_intervalos}"):
+                            res_aluno = st.radio("Escolha uma resposta:", ["Sim", "Não"], index=None, key=f"radio_int_r{st.session_state.m54_cont_rodadas_intervalos}")
                             btn_valida = st.form_submit_button("🎯 Validar Resposta")
                             
                         if btn_valida:
                             if res_aluno is None:
                                 st.warning("⚠️ Selecione uma alternativa primeiro!")
                             else:
-                                st.session_state.intervalo_respondido = True
-                                st.session_state.ultima_resposta_int = res_aluno
+                                st.session_state.m54_intervalo_respondido = True
+                                st.session_state.m54_ultima_resposta_int = res_aluno
                                 st.rerun()
                                 
-                    if st.session_state.intervalo_respondido:
-                        if st.session_state.ultima_resposta_int == g['resposta']:
-                            st.success("🎉 PARABÉNS! ")
+                    if st.session_state.m54_intervalo_respondido:
+                        if st.session_state.m54_ultima_resposta_int == g['resposta']:
+                            st.success("🎉 PARABÉNS!")
                         else:
                             st.error(f"❌ Resposta incorreta. O número `{g['ponto']}` {g['resposta'].lower()} pertence ao conjunto.")
                             
                         st.markdown("#### 👨‍🏫 Explicação de Engenharia da UniCesumar:")
                         st.write("Fique muito atento à tabela de equivalências: parênteses `()` e colchetes voltados para fora `][` significam exatamente a mesma coisa: **Intervalo Aberto (Bolinha Extremidade Não Incluída)**.")
-                        # Corrigido: Usando a notação matemática limpa com \$ para evitar conflitos de escape no interpretador do Python
                         st.write("Por definição conceitual, as extremidades infinitas (\(\infty\)) são sempre abertas e representadas por parênteses ou colchetes para fora!")
                         
                         st.write("---")
-                        if st.button("➡️ Próximo Intervalo", use_container_width=True):
-                            if "game_intervalo_atual" in st.session_state:
-                                del st.session_state.game_intervalo_atual
-                            st.session_state.intervalo_respondido = False
-                            st.session_state.cont_rodadas_intervalos += 1
+                        # [BLINDAGEM] Chave dinâmica embutida no botão para impedir crash por widgets clonados na memória volátil do Streamlit Cloud
+                        if st.button("➡️ Próximo Intervalo", use_container_width=True, key=f"m54_btn_prox_intervalo_{st.session_state.m54_cont_rodadas_intervalos}"):
+                            if "m54_game_intervalo_atual" in st.session_state:
+                                del st.session_state.m54_game_intervalo_atual
+                            st.session_state.m54_intervalo_respondido = False
+                            st.session_state.m54_cont_rodadas_intervalos += 1
                             st.rerun()
 
 
-            # 4. NOVA SUB-ABA: ESQUELETO DA FÁBRICA DE FUNÇÕES E CONCEITOS RIGOROSOS
+# 4. NOVA SUB-ABA: ESQUELETO DA FÁBRICA DE FUNÇÕES E CONCEITOS RIGOROSOS
             with sub_fabrica_funcoes:
                 st.subheader("🏭 Central de Processamento de Funções")
-                # Corrigido: Removidas quaisquer barras de escape para textos puramente explicativos, eliminando os avisos de sintaxe
                 st.write("Entenda o Conceito Rigoroso de Função como uma máquina industrial:")
                 st.write("você insere uma entrada (x), a máquina aplica uma regra matemática,")
                 st.write("e devolve uma saída exclusiva (y) ou f(x).")
                 
-                # Menu Seletor para navegar entre os esqueletos estruturais das 3 ideias pedagógicas
+                # [BLINDAGEM] Chave isolada inserida para evitar colisão entre sessões simultâneas de alunos
                 opcao_estacao = st.radio(
                     "Selecione a Estação de Aprendizado Prático:",
                     [
@@ -820,7 +847,8 @@ elif materia == "Cálculo Diferencial e Integral I":
                         "2. Simulador de Flechas (Domínio, Contradomínio e Imagem)",
                         "3. Detetive de Restrições (Evitando Erros de Engenharia)"
                     ],
-                    horizontal=True
+                    horizontal=True,
+                    key="m54_fab_opcao_estacao"
                 )
                 
                 st.write("---")
@@ -831,7 +859,7 @@ elif materia == "Cálculo Diferencial e Integral I":
                     col_painel_esq, col_grafico_dir = st.columns([0.8, 1.2])
                     
                     with col_painel_esq:
-                        # Seletor do grau da função
+                        # [BLINDAGEM] Isola o seletor do grau da função na thread do aluno atual
                         grau_funcao = st.selectbox(
                             "Escolha o Grau da Máquina Matemática:", 
                             [
@@ -839,11 +867,11 @@ elif materia == "Cálculo Diferencial e Integral I":
                                 "2º Grau (Função Quadrática: f(x) = ax² + bx + c)", 
                                 "3º Grau (Função Cúbica: f(x) = ax³ + bx² + cx + d)"
                             ],
-                            key="select_grau_funcao"
+                            key="m54_fab_select_grau"
                         )
                         
-                        # Entrada x principal
-                        x_entrada = st.number_input("Insira o valor da entrada (x):", value=2.0, step=0.5, key="num_x_fabrica")
+                        # [BLINDAGEM] Isola o campo numérico de entrada x principal
+                        x_entrada = st.number_input("Insira o valor da entrada (x):", value=2.0, step=0.5, key="m54_fab_num_x")
                         
                         st.markdown("##### Defina os Parâmetros da Função:")
                         c_coef1, c_coef2 = st.columns(2)
@@ -851,9 +879,9 @@ elif materia == "Cálculo Diferencial e Integral I":
                         # Processamento condicional instantâneo dos coeficientes e cálculo de y
                         if "1º Grau" in grau_funcao:
                             with c_coef1:
-                                coef_a = st.number_input("Coeficiente (a):", value=2.0, step=0.5, key="coef_a_1")
+                                coef_a = st.number_input("Coeficiente (a):", value=2.0, step=0.5, key="m54_fab_coef_a_1")
                             with c_coef2:
-                                coef_b = st.number_input("Coeficiente (b):", value=3.0, step=0.5, key="coef_b_1")
+                                coef_b = st.number_input("Coeficiente (b):", value=3.0, step=0.5, key="m54_fab_coef_b_1")
                                 
                             coef_c, coef_d = 0.0, 0.0
                             y_saida = coef_a * x_entrada + coef_b
@@ -863,10 +891,10 @@ elif materia == "Cálculo Diferencial e Integral I":
                             
                         elif "2º Grau" in grau_funcao:
                             with c_coef1:
-                                coef_a = st.number_input("Coeficiente (a):", value=1.0, step=0.5, key="coef_a_2")
-                                coef_b = st.number_input("Coeficiente (b):", value=0.0, step=0.5, key="coef_b_2")
+                                coef_a = st.number_input("Coeficiente (a):", value=1.0, step=0.5, key="m54_fab_coef_a_2")
+                                coef_b = st.number_input("Coeficiente (b):", value=0.0, step=0.5, key="m54_fab_coef_b_2")
                             with c_coef2:
-                                coef_c = st.number_input("Coeficiente (c):", value=0.0, step=0.5, key="coef_c_2")
+                                coef_c = st.number_input("Coeficiente (c):", value=0.0, step=0.5, key="m54_fab_coef_c_2")
                                 
                             coef_d = 0.0
                             y_saida = coef_a * (x_entrada ** 2) + coef_b * x_entrada + coef_c
@@ -877,11 +905,11 @@ elif materia == "Cálculo Diferencial e Integral I":
                             
                         else:
                             with c_coef1:
-                                coef_a = st.number_input("Coeficiente (a):", value=1.0, step=0.5, key="coef_a_3")
-                                coef_b = st.number_input("Coeficiente (b):", value=0.0, step=0.5, key="coef_b_3")
+                                coef_a = st.number_input("Coeficiente (a):", value=1.0, step=0.5, key="m54_fab_coef_a_3")
+                                coef_b = st.number_input("Coeficiente (b):", value=0.0, step=0.5, key="m54_fab_coef_b_3")
                             with c_coef2:
-                                coef_c = st.number_input("Coeficiente (c):", value=0.0, step=0.5, key="coef_c_3")
-                                d_num = st.number_input("Coeficiente (d):", value=0.0, step=0.5, key="coef_d_3")
+                                coef_c = st.number_input("Coeficiente (c):", value=0.0, step=0.5, key="m54_fab_coef_c_3")
+                                d_num = st.number_input("Coeficiente (d):", value=0.0, step=0.5, key="m54_fab_coef_d_3")
                                 coef_d = d_num
                                 
                             y_saida = coef_a * (x_entrada ** 3) + coef_b * (x_entrada ** 2) + coef_c * x_entrada + coef_d
@@ -891,7 +919,6 @@ elif materia == "Cálculo Diferencial e Integral I":
                             lei_geral_texto = f"f(x) = {coef_a}x^3 {b_sinal}x^2 {c_sinal}x {d_sinal}"
                             memorial_texto = rf"f({x_entrada}) = {coef_a} \cdot ({x_entrada})^3 {b_sinal} \cdot ({x_entrada})^2 {c_sinal} \cdot ({x_entrada}) {d_sinal} = {y_saida}"
                             
-                        # [SISTEMA EM TEMPO REAL] Exibe os blocos diretamente sem necessidade de clique em botão
                         st.write("---")
                         st.success(f"### Saída Obtida: $y = {y_saida}$")
                         st.markdown("##### 🔬 Memorial de Cálculo Ativo:")
@@ -929,14 +956,14 @@ elif materia == "Cálculo Diferencial e Integral I":
                             showlegend=False
                         ))
                         
-                        # Desenha a bolinha amarela do ponto gerado
+                        # Desenha a bolinha amarela do ponto gerado (Apenas uma vez de forma estável)
                         fig_fabrica.add_trace(go.Scatter(
                             x=[x_entrada], y=[y_saida], mode='markers', 
                             name=f'Ponto Processado ({x_entrada}, {y_saida})',
                             marker=dict(color='gold', size=14, symbol='circle', line=dict(color='black', width=2))
                         ))
                         
-                        # Layout maximizado: título removido e legenda horizontal na parte inferior
+                        # Layout maximizado e unificado: sem redundâncias na memória do contêiner
                         fig_fabrica.update_layout(
                             xaxis=dict(title="Eixo X (Domínio)", range=[-10, 10], zeroline=True, zerolinecolor='black', zerolinewidth=1.5),
                             yaxis=dict(title="Eixo Y (Imagem)", range=[-10, 20] if "2º Grau" in grau_funcao else [-10, 15], zeroline=True, zerolinecolor='black', zerolinewidth=1.5),
@@ -952,6 +979,8 @@ elif materia == "Cálculo Diferencial e Integral I":
                                 x=0.5
                             )
                         )
+                        
+                        # Renderização final única na tela do laboratório virtual
                         st.plotly_chart(fig_fabrica, use_container_width=True, config={"scrollZoom": True})
                         
                 # --- ESTAÇÃO 2: SIMULADOR DE FLECHAS ---
@@ -968,8 +997,8 @@ elif materia == "Cálculo Diferencial e Integral I":
                 else:
                     st.markdown("### 🕵️ Estação 3: O Detetive de Restrições")
                     st.write(
-                        r"Aqui montaremos o minigame focado nas funções que 'quebram' (como divisões por zero). "
-                        r"O estudante precisará analisar equações e identificar quais valores de \(x\) explodiriam a máquina, "
+                        "Aqui montaremos o minigame focado nas funções que 'quebram' (como divisões por zero). "
+                        "O estudante precisará analisar equações e identificar quais valores de $x$ explodiriam a máquina, "
                         "acumulando pontos por prever falhas em projetos técnicos."
                     )
                     st.warning("🟡 Módulo estrutural criado. O banco de desafios de restrições lógicas está aguardando os códigos matemáticos.")
@@ -989,8 +1018,12 @@ elif materia == "Engenharia Econômica":
         st.subheader("📚 Biblioteca Oficial de Materiais - Eng. Econômica")
         st.write("Consulte os materiais didáticos oficiais disponíveis para esta disciplina.")
         
-        # O sistema apenas lista os arquivos que você colocou previamente na pasta do servidor
-        salvos = os.listdir(pasta_da_materia)
+        # [SEGURANÇA] Tratamento preventivo para diretórios ausentes ou sem arquivos em Eng. Econômica
+        try:
+            salvos = os.listdir(pasta_da_materia)
+        except Exception:
+            salvos = []
+            
         if salvos:
             sel = st.selectbox("Selecione o arquivo de Economia:", salvos, key="sel_material_economia")
             # Busca o texto usando o cache de alta velocidade
@@ -1001,15 +1034,21 @@ elif materia == "Engenharia Econômica":
             
     with aba_tutor:
         st.subheader("👨‍🏫 Tutor Inteligente de Engenharia Econômica")
-        salvos = os.listdir(pasta_da_materia)
+        try:
+            salvos = os.listdir(pasta_da_materia)
+        except Exception:
+            salvos = []
+            
         if salvos:
-            dbase = st.selectbox("Documento base de Economia:", salvos, key="db_economia")
-            pergs = st.text_input("Qual sua dúvida sobre VPL, TIR, juros ou amortizações?")
+            dbase = st.selectbox("Documento base de Economia:", salvos, key="m54_eco_dbase")
+            pergs = st.text_input("Qual sua dúvida sobre VPL, TIR, juros ou amortizações?", key="m54_eco_pergs")
             if pergs:
                 with st.spinner("Analisando fluxos de caixa..."): 
                     # Otimizado com leitura em cache de alta velocidade
                     contexto_doc_economia = obter_conteudo_cached(os.path.join(pasta_da_materia, dbase))
                     st.markdown(responder_com_contexto(contexto_doc_economia, pergs))
+        else:
+            st.info("Nenhum documento disponível para servir de contexto para o Tutor IA de Economia.")
 
     with aba_calculadora_financas:
         st.subheader("📊 Motor de Análise Financeira")

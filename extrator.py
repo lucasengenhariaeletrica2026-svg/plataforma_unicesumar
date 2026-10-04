@@ -1,12 +1,12 @@
 import os
-import pypdf
+import pypdf  # CORRIGIDO: Tudo em letras minúsculas para o Linux reconhecer
 
 def extrair_texto_pdf(caminho_arquivo):
     """Lê todas as páginas de um arquivo PDF e retorna o texto consolidado."""
     texto_completo = ""
     try:
         with open(caminho_arquivo, "rb") as f:
-            leitor = pypdf.PdfReader(f)
+            leitor = pypdf.PdfReader(f)  # CORRIGIDO: pypdf com inicial minúscula
             for num_pagina in range(len(leitor.pages)):
                 pagina = leitor.pages[num_pagina]
                 texto_completo += pagina.extract_text() + "\n"

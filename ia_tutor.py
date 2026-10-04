@@ -1,24 +1,31 @@
 import os
 import time
+import streamlit as st
 from dotenv import load_dotenv
 from google import genai
 from google.genai import types
 
-# Descobre o caminho absoluto da pasta onde este arquivo está salvo
-caminho_da_pasta_atual = os.path.dirname(os.path.abspath(__file__))
-caminho_do_env = os.path.join(caminho_da_pasta_atual, ".env")
-
-# Força o carregamento do arquivo .env apontando diretamente para o local correto
-load_dotenv(dotenv_path=caminho_do_env)
-
-# Puxa a chave de API localizada com precisão
-api_key = os.getenv("GEMINI_API_KEY")
-
-# Inicializa o cliente oficial do Google AI
-if api_key:
-    client = genai.Client(api_key=api_key)
-else:
-    client = None
+def obter_cliente_gemini():
+    """
+    Obtém a chave de API de forma híbrida e segura:
+    1. Tenta buscar no st.secrets (Ambiente de Produção - Streamlit Cloud)
+    2. Caso não exista, busca no arquivo .env (Ambiente de Desenvolvimento - Localhost)
+    """
+    # 1. Tentativa via Streamlit Secrets (Produção)
+    if "GEMINI_API_KEY" in st.secrets:
+        return genai.Client(api_key=st.secrets["GEMINI_API_KEY"])
+        
+    # 2. Tentativa via arquivo .env (Localhost)
+    caminho_da_pasta_atual = os.path.dirname(os.path.abspath(__file__))
+    caminho_do_env = os.path.join(caminho_da_pasta_atual, ".env")
+    
+    if os.path.exists(caminho_do_env):
+        load_dotenv(dotenv_path=caminho_do_env)
+        api_key_local = os.getenv("GEMINI_API_KEY")
+        if api_key_local:
+            return genai.Client(api_key=api_key_local)
+            
+    return None
 
 def responder_com_contexto(texto_pdf, pergunta_usuario):
     """
@@ -26,8 +33,15 @@ def responder_com_contexto(texto_pdf, pergunta_usuario):
     para o Gemini responder de forma altamente didática e focada em engenharia.
     Inclui proteção contra sobrecarga dos servidores (Erros 503/High Demand).
     """
+    # Inicializa ou recupera o cliente de forma segura para a thread atual
+    client = obter_cliente_gemini()
+    
     if not client:
-        return "⚠️ Erro: Chave de API (GEMINI_API_KEY) não encontrada no arquivo .env."
+        return (
+            "⚠️ **Erro de Configuração:** A chave de API (`GEMINI_API_KEY`) não foi localizada. "
+            "Certifique-se de adicioná-la nos *Secrets* do painel do Streamlit Cloud (Produção) "
+            "ou no arquivo `.env` (Localhost)."
+        )
     
     config = types.GenerateContentConfig(
         system_instruction=(
