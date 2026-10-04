@@ -1,13 +1,12 @@
 import os
-import PyPDF2
-import docx2txt
+import pypdf
 
 def extrair_texto_pdf(caminho_arquivo):
     """Lê todas as páginas de um arquivo PDF e retorna o texto consolidado."""
     texto_completo = ""
     try:
         with open(caminho_arquivo, "rb") as f:
-            leitor = PyPDF2.PdfReader(f)
+            leitor = pypdf.PdfReader(f)
             for num_pagina in range(len(leitor.pages)):
                 pagina = leitor.pages[num_pagina]
                 texto_completo += pagina.extract_text() + "\n"
@@ -16,9 +15,11 @@ def extrair_texto_pdf(caminho_arquivo):
     return texto_completo
 
 def extrair_texto_docx(caminho_arquivo):
-    """Lê um arquivo do Word (.docx) e retorna o texto extraído."""
+    """Lê um arquivo do Word (.docx) e retorna o texto extraído de forma nativa e rápida."""
     try:
-        return docx2txt.process(caminho_arquivo)
+        import docx
+        doc = docx.Document(caminho_arquivo)
+        return "\n".join([paragrafo.text for paragrafo in doc.paragraphs])
     except Exception as e:
         return f"Erro ao ler DOCX: {str(e)}"
 
@@ -39,3 +40,4 @@ def ler_documento(caminho_arquivo):
                 return f.read()
     else:
         return "Formato de arquivo não suportado."
+
